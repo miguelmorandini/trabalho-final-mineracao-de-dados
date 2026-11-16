@@ -1,0 +1,49 @@
+{
+  "metadata": {
+    "dataset": "alunos",
+    "source_file": "Atividade11 - alunos v2.txt",
+    "size_mb": 57.0718,
+    "rows": 1000000,
+    "columns": [
+      "id_aluno",
+      "nome",
+      "idade",
+      "sexo",
+      "cidade",
+      "renda_estimada",
+      "data_nascimento"
+    ],
+    "delimiter_counts": {
+      "|": 1000000
+    },
+    "ingested_at": "2026-11-13T18:54:45Z"
+  },
+  "unique_id_aluno": 1000000,
+  "id_aluno_match_alunos_pct": null,
+  "exact_duplicates": 0,
+  "empty_counts": {
+    "id_aluno": 0,
+    "nome": 5995,
+    "idade": 2078,
+    "sexo": 2065,
+    "cidade": 2404,
+    "renda_estimada": 2018,
+    "data_nascimento": 2481
+  },
+  "total_empty_fields": 17041,
+  "anomalies": {
+    "sexo_distribuicao": {
+      "F": 494327,
+      "M": 493326,
+      "Masculino": 2106,
+      "": 2065,
+      "N/A": 2053,
+      "X": 2051,
+      " fem ": 2048,
+      "feminino": 2024
+    },
+    "idade_menor_15_ou_maior_90": 5969,
+    "renda_com_virgula": 989937,
+    "mojibake_cidade_ou_nome": 47
+  }
+}

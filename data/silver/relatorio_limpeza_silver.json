@@ -1,0 +1,149 @@
+{
+  "alunos": {
+    "dataset": "alunos",
+    "rows_in": 1000000,
+    "rows_out": 1000000,
+    "duplicates_removed": 0,
+    "lgpd_nome_anonymized": true,
+    "mojibake_fixed_cidade": 0,
+    "cidade_imputada_nao_informada": 2404,
+    "idade_imputada_mediana": 12055,
+    "idade_mediana_valor": 48.0,
+    "renda_imputada_mediana": 10116,
+    "renda_mediana_valor": 6862.96,
+    "renda_outliers_iqr": {
+      "q1": 4373.97,
+      "q3": 10083.3675,
+      "iqr": 5709.3975,
+      "lower_bound": -4190.1263,
+      "upper_bound": 18647.4638,
+      "outliers": 0
+    },
+    "renda_outliers_zscore": 0,
+    "id_aluno_match_alunos_pct": 100.0
+  },
+  "matriculas": {
+    "dataset": "matriculas",
+    "rows_in": 700000,
+    "rows_out": 700000,
+    "duplicates_removed": 0,
+    "status_counts": {
+      "Ativo": 489938,
+      "Evadido": 105176,
+      "Trancado": 104886
+    },
+    "id_aluno_match_alunos_pct": 100.0
+  },
+  "notas": {
+    "dataset": "notas",
+    "rows_in": 600000,
+    "rows_out": 600000,
+    "duplicates_removed": 0,
+    "mojibake_fixed_disciplina": 0,
+    "notas_invalidas_anuladas": 171127,
+    "nota_media_valida": 4.9974,
+    "nota_mediana_valida": 5.0,
+    "outliers_iqr": {
+      "q1": 2.5,
+      "q3": 7.49,
+      "iqr": 4.99,
+      "lower_bound": -4.985,
+      "upper_bound": 14.975,
+      "outliers": 0
+    },
+    "outliers_zscore": 0,
+    "id_aluno_match_alunos_pct": 100.0
+  },
+  "acessos": {
+    "dataset": "acessos",
+    "rows_in": 400000,
+    "rows_out": 400000,
+    "duplicates_removed": 0,
+    "tempo_outliers_iqr": {
+      "q1": 124.0,
+      "q3": 375.0,
+      "iqr": 251.0,
+      "lower_bound": -252.5,
+      "upper_bound": 751.5,
+      "outliers": 0
+    },
+    "tempo_outliers_zscore": 0,
+    "paginas_outliers_iqr": {
+      "q1": 13.0,
+      "q3": 37.0,
+      "iqr": 24.0,
+      "lower_bound": -23.0,
+      "upper_bound": 73.0,
+      "outliers": 0
+    },
+    "id_aluno_match_alunos_pct": 100.0
+  },
+  "redes": {
+    "dataset": "redes",
+    "rows_in": 300000,
+    "rows_out": 300000,
+    "duplicates_removed": 0,
+    "interacoes_outliers_iqr": {
+      "q1": 250.0,
+      "q3": 750.0,
+      "iqr": 500.0,
+      "lower_bound": -500.0,
+      "upper_bound": 1500.0,
+      "outliers": 0
+    },
+    "interacoes_outliers_zscore": 0,
+    "id_aluno_match_alunos_pct": 100.0
+  },
+  "financeiro": {
+    "dataset": "financeiro",
+    "rows_in": 1000000,
+    "rows_removed_null_id_aluno": 1213,
+    "rows_out": 993804,
+    "duplicates_removed": 4983,
+    "valor_mensalidade_imputado_mediana": 1128,
+    "valor_mensalidade_mediana": 1438.53,
+    "situacao_imputada_moda": 1284,
+    "situacao_moda": "PENDENTE",
+    "mensalidade_outliers_iqr": {
+      "q1": 909.77,
+      "q3": 1969.65,
+      "iqr": 1059.88,
+      "lower_bound": -680.05,
+      "upper_bound": 3559.47,
+      "outliers": 0
+    },
+    "mensalidade_outliers_zscore": 0,
+    "id_aluno_match_alunos_pct": 100.0
+  },
+  "deslocamento": {
+    "dataset": "deslocamento",
+    "rows_in": 1000,
+    "rows_out": 1000,
+    "duplicates_removed": 0,
+    "distancia_outliers_iqr": {
+      "q1": 8.65,
+      "q3": 27.1675,
+      "iqr": 18.5175,
+      "lower_bound": -19.1262,
+      "upper_bound": 54.9437,
+      "outliers": 3
+    },
+    "custo_outliers_iqr": {
+      "q1": 5.0,
+      "q3": 32.665,
+      "iqr": 27.665,
+      "lower_bound": -36.4975,
+      "upper_bound": 74.1625,
+      "outliers": 30
+    },
+    "id_aluno_match_alunos_pct": 100.0
+  },
+  "frequencia": {
+    "dataset": "frequencia",
+    "rows_in": 20,
+    "rows_out": 20,
+    "duplicates_removed": 0,
+    "escopo": "Micro-amostra complementar (20 registros / 9 alunos).",
+    "id_aluno_match_alunos_pct": 100.0
+  }
+}

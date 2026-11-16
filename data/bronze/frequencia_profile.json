@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "dataset": "frequencia",
+    "source_file": "Atividade11 - Frequência das Aulas.txt",
+    "size_mb": 0.0017,
+    "rows": 20,
+    "columns": [
+      "id_frequencia",
+      "id_aluno",
+      "data_aula",
+      "curso",
+      "disciplina",
+      "turno",
+      "situacao",
+      "minutos_atraso"
+    ],
+    "delimiter_counts": {
+      "|": 20
+    },
+    "ingested_at": "2026-11-13T18:54:14Z"
+  },
+  "unique_id_aluno": 9,
+  "id_aluno_match_alunos_pct": null,
+  "exact_duplicates": 0,
+  "empty_counts": {
+    "id_frequencia": 0,
+    "id_aluno": 0,
+    "data_aula": 0,
+    "curso": 0,
+    "disciplina": 0,
+    "turno": 0,
+    "situacao": 0,
+    "minutos_atraso": 0
+  },
+  "total_empty_fields": 0,
+  "anomalies": {
+    "situacao_distribuicao": {
+      "Presente": 11,
+      "Atrasado": 5,
+      "Ausente": 4
+    },
+    "escopo_observacao": "Micro-amostra complementar (20 linhas / 9 alunos) — não extrapolar para 1M."
+  }
+}

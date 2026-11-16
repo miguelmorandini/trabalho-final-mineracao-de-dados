@@ -1,0 +1,11 @@
+{
+  "dataset": "matriculas",
+  "rows_in": 700000,
+  "rows_out": 700000,
+  "duplicates_removed": 0,
+  "status_counts": {
+    "Ativo": 489938,
+    "Evadido": 105176,
+    "Trancado": 104886
+  }
+}

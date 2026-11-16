@@ -1,0 +1,10 @@
+{
+  "dim_curso": 16,
+  "dim_calendario": 2001,
+  "dim_aluno": 1000000,
+  "fato_matriculas": 700000,
+  "fato_notas": 600000,
+  "fato_financeiro": 993804,
+  "fato_aluno_360": 376925,
+  "taxa_evasao_alunos_pct": 25.14
+}

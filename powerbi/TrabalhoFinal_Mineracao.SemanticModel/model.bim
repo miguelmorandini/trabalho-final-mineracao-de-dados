@@ -1,0 +1,814 @@
+{
+  "compatibilityLevel": 1567,
+  "model": {
+    "culture": "pt-BR",
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "tables": [
+      {
+        "name": "fato_aluno_360",
+        "columns": [
+          {
+            "name": "id_aluno",
+            "dataType": "int64",
+            "sourceColumn": "id_aluno",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "total_matriculas",
+            "dataType": "int64",
+            "sourceColumn": "total_matriculas",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "qtd_ativo",
+            "dataType": "int64",
+            "sourceColumn": "qtd_ativo",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "qtd_evadido",
+            "dataType": "int64",
+            "sourceColumn": "qtd_evadido",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "qtd_trancado",
+            "dataType": "int64",
+            "sourceColumn": "qtd_trancado",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "faculdade_principal",
+            "dataType": "string",
+            "sourceColumn": "faculdade_principal",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "curso_principal",
+            "dataType": "string",
+            "sourceColumn": "curso_principal",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "semestre_principal",
+            "dataType": "int64",
+            "sourceColumn": "semestre_principal",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "evadido_target",
+            "dataType": "int64",
+            "sourceColumn": "evadido_target",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "sexo",
+            "dataType": "string",
+            "sourceColumn": "sexo",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "idade",
+            "dataType": "int64",
+            "sourceColumn": "idade",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "faixa_etaria",
+            "dataType": "string",
+            "sourceColumn": "faixa_etaria",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "cidade",
+            "dataType": "string",
+            "sourceColumn": "cidade",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "renda_estimada",
+            "dataType": "double",
+            "sourceColumn": "renda_estimada",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "faixa_renda",
+            "dataType": "string",
+            "sourceColumn": "faixa_renda",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "nota_media",
+            "dataType": "double",
+            "sourceColumn": "nota_media",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "nota_mediana",
+            "dataType": "double",
+            "sourceColumn": "nota_mediana",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "qtd_notas_validas",
+            "dataType": "double",
+            "sourceColumn": "qtd_notas_validas",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "qtd_notas_invalidas",
+            "dataType": "double",
+            "sourceColumn": "qtd_notas_invalidas",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "total_acessos",
+            "dataType": "double",
+            "sourceColumn": "total_acessos",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "tempo_logado_total",
+            "dataType": "double",
+            "sourceColumn": "tempo_logado_total",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "tempo_logado_medio",
+            "dataType": "double",
+            "sourceColumn": "tempo_logado_medio",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "paginas_total",
+            "dataType": "int64",
+            "sourceColumn": "paginas_total",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "interacoes_total",
+            "dataType": "int64",
+            "sourceColumn": "interacoes_total",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "seguidores_medio",
+            "dataType": "double",
+            "sourceColumn": "seguidores_medio",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "seguindo_medio",
+            "dataType": "double",
+            "sourceColumn": "seguindo_medio",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "qtd_lancamentos_fin",
+            "dataType": "int64",
+            "sourceColumn": "qtd_lancamentos_fin",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "valor_mensalidade_total",
+            "dataType": "double",
+            "sourceColumn": "valor_mensalidade_total",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "valor_pago_total",
+            "dataType": "double",
+            "sourceColumn": "valor_pago_total",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "qtd_inadimplente",
+            "dataType": "double",
+            "sourceColumn": "qtd_inadimplente",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "taxa_inadimplencia",
+            "dataType": "double",
+            "sourceColumn": "taxa_inadimplencia",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "prob_evasao",
+            "dataType": "double",
+            "sourceColumn": "prob_evasao",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "faixa_risco_evasao",
+            "dataType": "string",
+            "sourceColumn": "faixa_risco_evasao",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "cluster_id",
+            "dataType": "int64",
+            "sourceColumn": "cluster_id",
+            "summarizeBy": "none"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "fato_aluno_360",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Fonte = Csv.Document(File.Contents(\"c:\\\\Projects\\\\trabalho-final-mineacao-de-dados\\\\data\\\\gold\\\\fato_aluno_360.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),",
+                "    #\"Cabeçalhos Promovidos\" = Table.PromoteHeaders(Fonte, [PromoteAllScalars=true]),",
+                "    #\"Tipo Alterado\" = Table.TransformColumnTypes(#\"Cabeçalhos Promovidos\", {{\"id_aluno\", Int64.Type}, {\"total_matriculas\", Int64.Type}, {\"qtd_ativo\", Int64.Type}, {\"qtd_evadido\", Int64.Type}, {\"qtd_trancado\", Int64.Type}, {\"faculdade_principal\", type text}, {\"curso_principal\", type text}, {\"semestre_principal\", Int64.Type}, {\"evadido_target\", Int64.Type}, {\"sexo\", type text}, {\"idade\", Int64.Type}, {\"faixa_etaria\", type text}, {\"cidade\", type text}, {\"renda_estimada\", type number}, {\"faixa_renda\", type text}, {\"nota_media\", type number}, {\"nota_mediana\", type number}, {\"qtd_notas_validas\", type number}, {\"qtd_notas_invalidas\", type number}, {\"total_acessos\", type number}, {\"tempo_logado_total\", type number}, {\"tempo_logado_medio\", type number}, {\"paginas_total\", Int64.Type}, {\"interacoes_total\", Int64.Type}, {\"seguidores_medio\", type number}, {\"seguindo_medio\", type number}, {\"qtd_lancamentos_fin\", Int64.Type}, {\"valor_mensalidade_total\", type number}, {\"valor_pago_total\", type number}, {\"qtd_inadimplente\", type number}, {\"taxa_inadimplencia\", type number}, {\"prob_evasao\", type number}, {\"faixa_risco_evasao\", type text}, {\"cluster_id\", Int64.Type}})",
+                "in",
+                "    #\"Tipo Alterado\""
+              ]
+            }
+          }
+        ],
+        "measures": [
+          {
+            "name": "Total Alunos",
+            "expression": "COUNTROWS(fato_aluno_360)",
+            "formatString": "#,0"
+          },
+          {
+            "name": "Alunos Evadidos",
+            "expression": "SUM(fato_aluno_360[evadido_target])",
+            "formatString": "#,0"
+          },
+          {
+            "name": "Taxa Evasao (%)",
+            "expression": "DIVIDE([Alunos Evadidos], [Total Alunos], 0)",
+            "formatString": "0.00%"
+          },
+          {
+            "name": "Alunos Alto Risco",
+            "expression": "CALCULATE(COUNTROWS(fato_aluno_360), fato_aluno_360[faixa_risco_evasao] = \"Alto Risco\")",
+            "formatString": "#,0"
+          },
+          {
+            "name": "% Alunos Alto Risco",
+            "expression": "DIVIDE([Alunos Alto Risco], [Total Alunos], 0)",
+            "formatString": "0.00%"
+          },
+          {
+            "name": "Nota Media Geral",
+            "expression": "AVERAGE(fato_aluno_360[nota_media])",
+            "formatString": "0.00"
+          },
+          {
+            "name": "Renda Media",
+            "expression": "AVERAGE(fato_aluno_360[renda_estimada])",
+            "formatString": "R$ #,0.00"
+          },
+          {
+            "name": "Tempo Logado Medio",
+            "expression": "AVERAGE(fato_aluno_360[tempo_logado_medio])",
+            "formatString": "0.0"
+          },
+          {
+            "name": "Prob Media Evasao",
+            "expression": "AVERAGE(fato_aluno_360[prob_evasao])",
+            "formatString": "0.0%"
+          },
+          {
+            "name": "Taxa Evasao Multi-Matricula (%)",
+            "expression": "CALCULATE([Taxa Evasao (%)], fato_aluno_360[total_matriculas] > 1)",
+            "formatString": "0.00%"
+          },
+          {
+            "name": "Gap vs Benchmark INEP (pp)",
+            "expression": "([Taxa Evasao (%)] * 100) - 28.0",
+            "formatString": "+0.00;-0.00;0.00"
+          }
+        ]
+      },
+      {
+        "name": "fato_matriculas",
+        "columns": [
+          {
+            "name": "id_matricula",
+            "dataType": "int64",
+            "sourceColumn": "id_matricula",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "id_aluno",
+            "dataType": "int64",
+            "sourceColumn": "id_aluno",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "faculdade",
+            "dataType": "string",
+            "sourceColumn": "faculdade",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "curso",
+            "dataType": "string",
+            "sourceColumn": "curso",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "semestre",
+            "dataType": "int64",
+            "sourceColumn": "semestre",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "status",
+            "dataType": "string",
+            "sourceColumn": "status",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "id_curso",
+            "dataType": "int64",
+            "sourceColumn": "id_curso",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "flag_evadido",
+            "dataType": "int64",
+            "sourceColumn": "flag_evadido",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "flag_trancado",
+            "dataType": "int64",
+            "sourceColumn": "flag_trancado",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "flag_ativo",
+            "dataType": "int64",
+            "sourceColumn": "flag_ativo",
+            "summarizeBy": "sum"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "fato_matriculas",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Fonte = Csv.Document(File.Contents(\"c:\\\\Projects\\\\trabalho-final-mineacao-de-dados\\\\data\\\\gold\\\\fato_matriculas.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),",
+                "    #\"Cabeçalhos Promovidos\" = Table.PromoteHeaders(Fonte, [PromoteAllScalars=true]),",
+                "    #\"Tipo Alterado\" = Table.TransformColumnTypes(#\"Cabeçalhos Promovidos\", {{\"id_matricula\", Int64.Type}, {\"id_aluno\", Int64.Type}, {\"faculdade\", type text}, {\"curso\", type text}, {\"semestre\", Int64.Type}, {\"status\", type text}, {\"id_curso\", Int64.Type}, {\"flag_evadido\", Int64.Type}, {\"flag_trancado\", Int64.Type}, {\"flag_ativo\", Int64.Type}})",
+                "in",
+                "    #\"Tipo Alterado\""
+              ]
+            }
+          }
+        ],
+        "measures": [
+          {
+            "name": "Total Matriculas",
+            "expression": "COUNTROWS(fato_matriculas)",
+            "formatString": "#,0"
+          },
+          {
+            "name": "Matriculas Ativas",
+            "expression": "SUM(fato_matriculas[flag_ativo])",
+            "formatString": "#,0"
+          },
+          {
+            "name": "Matriculas Evadidas",
+            "expression": "SUM(fato_matriculas[flag_evadido])",
+            "formatString": "#,0"
+          },
+          {
+            "name": "Matriculas Trancadas",
+            "expression": "SUM(fato_matriculas[flag_trancado])",
+            "formatString": "#,0"
+          },
+          {
+            "name": "Taxa Evasao Matriculas (%)",
+            "expression": "DIVIDE([Matriculas Evadidas], [Total Matriculas], 0)",
+            "formatString": "0.00%"
+          }
+        ]
+      },
+      {
+        "name": "dim_curso",
+        "columns": [
+          {
+            "name": "id_curso",
+            "dataType": "int64",
+            "sourceColumn": "id_curso",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "faculdade",
+            "dataType": "string",
+            "sourceColumn": "faculdade",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "curso",
+            "dataType": "string",
+            "sourceColumn": "curso",
+            "summarizeBy": "none"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "dim_curso",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Fonte = Csv.Document(File.Contents(\"c:\\\\Projects\\\\trabalho-final-mineacao-de-dados\\\\data\\\\gold\\\\dim_curso.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),",
+                "    #\"Cabeçalhos Promovidos\" = Table.PromoteHeaders(Fonte, [PromoteAllScalars=true]),",
+                "    #\"Tipo Alterado\" = Table.TransformColumnTypes(#\"Cabeçalhos Promovidos\", {{\"id_curso\", Int64.Type}, {\"faculdade\", type text}, {\"curso\", type text}})",
+                "in",
+                "    #\"Tipo Alterado\""
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "dim_faculdade",
+        "columns": [
+          {
+            "name": "faculdade",
+            "dataType": "string",
+            "sourceColumn": "faculdade",
+            "summarizeBy": "none"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "dim_faculdade",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Fonte = #table(type table [faculdade = text], {{\"PUC\"}, {\"UNESP\"}, {\"UNICAMP\"}, {\"USP\"}})",
+                "in",
+                "    Fonte"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "gold_metricas_modelos",
+        "columns": [
+          {
+            "name": "balanceamento",
+            "dataType": "string",
+            "sourceColumn": "balanceamento",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "modelo",
+            "dataType": "string",
+            "sourceColumn": "modelo",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "accuracy",
+            "dataType": "double",
+            "sourceColumn": "accuracy",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "precision",
+            "dataType": "double",
+            "sourceColumn": "precision",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "recall",
+            "dataType": "double",
+            "sourceColumn": "recall",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "f1_score",
+            "dataType": "double",
+            "sourceColumn": "f1_score",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "roc_auc",
+            "dataType": "double",
+            "sourceColumn": "roc_auc",
+            "summarizeBy": "sum"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "gold_metricas_modelos",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Fonte = Csv.Document(File.Contents(\"c:\\\\Projects\\\\trabalho-final-mineacao-de-dados\\\\data\\\\gold\\\\gold_metricas_modelos.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),",
+                "    #\"Cabeçalhos Promovidos\" = Table.PromoteHeaders(Fonte, [PromoteAllScalars=true]),",
+                "    #\"Tipo Alterado\" = Table.TransformColumnTypes(#\"Cabeçalhos Promovidos\", {{\"balanceamento\", type text}, {\"modelo\", type text}, {\"accuracy\", type number}, {\"precision\", type number}, {\"recall\", type number}, {\"f1_score\", type number}, {\"roc_auc\", type number}})",
+                "in",
+                "    #\"Tipo Alterado\""
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "gold_regras_associacao",
+        "columns": [
+          {
+            "name": "antecedente",
+            "dataType": "string",
+            "sourceColumn": "antecedente",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "consequente",
+            "dataType": "string",
+            "sourceColumn": "consequente",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "suporte_pct",
+            "dataType": "double",
+            "sourceColumn": "suporte_pct",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "confianca_pct",
+            "dataType": "double",
+            "sourceColumn": "confianca_pct",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "lift",
+            "dataType": "double",
+            "sourceColumn": "lift",
+            "summarizeBy": "sum"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "gold_regras_associacao",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Fonte = Csv.Document(File.Contents(\"c:\\\\Projects\\\\trabalho-final-mineacao-de-dados\\\\data\\\\gold\\\\gold_regras_associacao.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),",
+                "    #\"Cabeçalhos Promovidos\" = Table.PromoteHeaders(Fonte, [PromoteAllScalars=true]),",
+                "    #\"Tipo Alterado\" = Table.TransformColumnTypes(#\"Cabeçalhos Promovidos\", {{\"antecedente\", type text}, {\"consequente\", type text}, {\"suporte_pct\", type number}, {\"confianca_pct\", type number}, {\"lift\", type number}})",
+                "in",
+                "    #\"Tipo Alterado\""
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "gold_perfil_clusters",
+        "columns": [
+          {
+            "name": "cluster_id",
+            "dataType": "int64",
+            "sourceColumn": "cluster_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "alunos",
+            "dataType": "int64",
+            "sourceColumn": "alunos",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "taxa_evasao_pct",
+            "dataType": "double",
+            "sourceColumn": "taxa_evasao_pct",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "nota_media",
+            "dataType": "double",
+            "sourceColumn": "nota_media",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "tempo_logado_medio",
+            "dataType": "double",
+            "sourceColumn": "tempo_logado_medio",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "interacoes_media",
+            "dataType": "double",
+            "sourceColumn": "interacoes_media",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "renda_media",
+            "dataType": "double",
+            "sourceColumn": "renda_media",
+            "summarizeBy": "sum"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "gold_perfil_clusters",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Fonte = Csv.Document(File.Contents(\"c:\\\\Projects\\\\trabalho-final-mineacao-de-dados\\\\data\\\\gold\\\\gold_perfil_clusters.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),",
+                "    #\"Cabeçalhos Promovidos\" = Table.PromoteHeaders(Fonte, [PromoteAllScalars=true]),",
+                "    #\"Tipo Alterado\" = Table.TransformColumnTypes(#\"Cabeçalhos Promovidos\", {{\"cluster_id\", Int64.Type}, {\"alunos\", Int64.Type}, {\"taxa_evasao_pct\", type number}, {\"nota_media\", type number}, {\"tempo_logado_medio\", type number}, {\"interacoes_media\", type number}, {\"renda_media\", type number}})",
+                "in",
+                "    #\"Tipo Alterado\""
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "gold_feature_importance",
+        "columns": [
+          {
+            "name": "feature",
+            "dataType": "string",
+            "sourceColumn": "feature",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "importancia",
+            "dataType": "double",
+            "sourceColumn": "importancia",
+            "summarizeBy": "sum"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "gold_feature_importance",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Fonte = Csv.Document(File.Contents(\"c:\\\\Projects\\\\trabalho-final-mineacao-de-dados\\\\data\\\\gold\\\\gold_feature_importance.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),",
+                "    #\"Cabeçalhos Promovidos\" = Table.PromoteHeaders(Fonte, [PromoteAllScalars=true]),",
+                "    #\"Tipo Alterado\" = Table.TransformColumnTypes(#\"Cabeçalhos Promovidos\", {{\"feature\", type text}, {\"importancia\", type number}})",
+                "in",
+                "    #\"Tipo Alterado\""
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "gold_benchmark_inep",
+        "columns": [
+          {
+            "name": "indicador",
+            "dataType": "string",
+            "sourceColumn": "indicador",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "valor_nossa_base_pct",
+            "dataType": "double",
+            "sourceColumn": "valor_nossa_base_pct",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "referencia_inep_pct",
+            "dataType": "double",
+            "sourceColumn": "referencia_inep_pct",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "fonte",
+            "dataType": "string",
+            "sourceColumn": "fonte",
+            "summarizeBy": "none"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "gold_benchmark_inep",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Fonte = Csv.Document(File.Contents(\"c:\\\\Projects\\\\trabalho-final-mineacao-de-dados\\\\data\\\\gold\\\\gold_benchmark_inep.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),",
+                "    #\"Cabeçalhos Promovidos\" = Table.PromoteHeaders(Fonte, [PromoteAllScalars=true]),",
+                "    #\"Tipo Alterado\" = Table.TransformColumnTypes(#\"Cabeçalhos Promovidos\", {{\"indicador\", type text}, {\"valor_nossa_base_pct\", type number}, {\"referencia_inep_pct\", type number}, {\"fonte\", type text}})",
+                "in",
+                "    #\"Tipo Alterado\""
+              ]
+            }
+          }
+        ],
+        "measures": [
+          {
+            "name": "Instituição (%)",
+            "expression": "AVERAGE(gold_benchmark_inep[valor_nossa_base_pct])",
+            "formatString": "0.0"
+          },
+          {
+            "name": "Referência INEP (%)",
+            "expression": "AVERAGE(gold_benchmark_inep[referencia_inep_pct])",
+            "formatString": "0.0"
+          }
+        ]
+      },
+      {
+        "name": "gold_ars_metricas_rede",
+        "columns": [
+          {
+            "name": "no",
+            "dataType": "string",
+            "sourceColumn": "no",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "tipo",
+            "dataType": "string",
+            "sourceColumn": "tipo",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "grau",
+            "dataType": "int64",
+            "sourceColumn": "grau",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "centralidade_grau",
+            "dataType": "double",
+            "sourceColumn": "centralidade_grau",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "intermediacao",
+            "dataType": "double",
+            "sourceColumn": "intermediacao",
+            "summarizeBy": "sum"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "gold_ars_metricas_rede",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Fonte = Csv.Document(File.Contents(\"c:\\\\Projects\\\\trabalho-final-mineacao-de-dados\\\\data\\\\gold\\\\gold_ars_metricas_rede.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),",
+                "    #\"Cabeçalhos Promovidos\" = Table.PromoteHeaders(Fonte, [PromoteAllScalars=true]),",
+                "    #\"Tipo Alterado\" = Table.TransformColumnTypes(#\"Cabeçalhos Promovidos\", {{\"no\", type text}, {\"tipo\", type text}, {\"grau\", Int64.Type}, {\"centralidade_grau\", type number}, {\"intermediacao\", type number}})",
+                "in",
+                "    #\"Tipo Alterado\""
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "name": "20a89e0d-82da-4e0e-a275-222d05330e63",
+        "fromTable": "fato_matriculas",
+        "fromColumn": "id_curso",
+        "toTable": "dim_curso",
+        "toColumn": "id_curso"
+      },
+      {
+        "name": "b17328df-a6fd-4ff5-ac43-a5215ad145a5",
+        "fromTable": "dim_curso",
+        "fromColumn": "faculdade",
+        "toTable": "dim_faculdade",
+        "toColumn": "faculdade"
+      },
+      {
+        "name": "34869b0a-0757-4a55-a6b3-9a0f02be534e",
+        "fromTable": "fato_aluno_360",
+        "fromColumn": "faculdade_principal",
+        "toTable": "dim_faculdade",
+        "toColumn": "faculdade"
+      }
+    ]
+  }
+}

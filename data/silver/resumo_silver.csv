@@ -1,0 +1,9 @@
+﻿tabela,linhas_bronze,linhas_silver,duplicatas_removidas,id_aluno_unicos,match_alunos_pct
+alunos,1000000,1000000,0,1000000,100.0
+matriculas,700000,700000,0,376925,100.0
+notas,600000,600000,0,349170,100.0
+acessos,400000,400000,0,275613,100.0
+redes,300000,300000,0,225241,100.0
+financeiro,1000000,993804,4983,14001,100.0
+deslocamento,1000,1000,0,996,100.0
+frequencia,20,20,0,9,100.0

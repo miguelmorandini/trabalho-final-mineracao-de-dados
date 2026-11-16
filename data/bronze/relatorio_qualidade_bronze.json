@@ -1,0 +1,315 @@
+{
+  "alunos": {
+    "metadata": {
+      "dataset": "alunos",
+      "source_file": "Atividade11 - alunos v2.txt",
+      "size_mb": 57.0718,
+      "rows": 1000000,
+      "columns": [
+        "id_aluno",
+        "nome",
+        "idade",
+        "sexo",
+        "cidade",
+        "renda_estimada",
+        "data_nascimento"
+      ],
+      "delimiter_counts": {
+        "|": 1000000
+      },
+      "ingested_at": "2026-11-13T18:54:45Z"
+    },
+    "unique_id_aluno": 1000000,
+    "id_aluno_match_alunos_pct": 100.0,
+    "exact_duplicates": 0,
+    "empty_counts": {
+      "id_aluno": 0,
+      "nome": 5995,
+      "idade": 2078,
+      "sexo": 2065,
+      "cidade": 2404,
+      "renda_estimada": 2018,
+      "data_nascimento": 2481
+    },
+    "total_empty_fields": 17041,
+    "anomalies": {
+      "sexo_distribuicao": {
+        "F": 494327,
+        "M": 493326,
+        "Masculino": 2106,
+        "": 2065,
+        "N/A": 2053,
+        "X": 2051,
+        " fem ": 2048,
+        "feminino": 2024
+      },
+      "idade_menor_15_ou_maior_90": 5969,
+      "renda_com_virgula": 989937,
+      "mojibake_cidade_ou_nome": 47
+    }
+  },
+  "matriculas": {
+    "metadata": {
+      "dataset": "matriculas",
+      "source_file": "Atividade11 - matriculas.txt",
+      "size_mb": 23.9468,
+      "rows": 700000,
+      "columns": [
+        "id_matricula",
+        "id_aluno",
+        "faculdade",
+        "curso",
+        "semestre",
+        "status"
+      ],
+      "delimiter_counts": {
+        "|": 700000
+      },
+      "ingested_at": "2026-11-13T18:54:55Z"
+    },
+    "unique_id_aluno": 376925,
+    "id_aluno_match_alunos_pct": 100.0,
+    "exact_duplicates": 0,
+    "empty_counts": {
+      "id_matricula": 0,
+      "id_aluno": 0,
+      "faculdade": 0,
+      "curso": 0,
+      "semestre": 0,
+      "status": 0
+    },
+    "total_empty_fields": 0,
+    "anomalies": {
+      "status_distribuicao": {
+        "Ativo": 489938,
+        "Evadido": 105176,
+        "Trancado": 104886
+      }
+    }
+  },
+  "notas": {
+    "metadata": {
+      "dataset": "notas",
+      "source_file": "Atividade11 - notas.txt",
+      "size_mb": 15.7152,
+      "rows": 600000,
+      "columns": [
+        "id_aluno",
+        "disciplina",
+        "nota",
+        "data"
+      ],
+      "delimiter_counts": {
+        "|": 600000
+      },
+      "ingested_at": "2026-11-13T18:55:02Z"
+    },
+    "unique_id_aluno": 349170,
+    "id_aluno_match_alunos_pct": 100.0,
+    "exact_duplicates": 0,
+    "empty_counts": {
+      "id_aluno": 0,
+      "disciplina": 0,
+      "nota": 0,
+      "data": 0
+    },
+    "total_empty_fields": 0,
+    "anomalies": {
+      "nota_menor_0": 85474,
+      "nota_maior_10": 85653
+    }
+  },
+  "acessos": {
+    "metadata": {
+      "dataset": "acessos",
+      "source_file": "Atividade11 - acessos.txt",
+      "size_mb": 9.2981,
+      "rows": 400000,
+      "columns": [
+        "id_aluno",
+        "data",
+        "tempo_logado",
+        "paginas"
+      ],
+      "delimiter_counts": {
+        "|": 400000
+      },
+      "ingested_at": "2026-11-13T18:55:09Z"
+    },
+    "unique_id_aluno": 275613,
+    "id_aluno_match_alunos_pct": 100.0,
+    "exact_duplicates": 0,
+    "empty_counts": {
+      "id_aluno": 0,
+      "data": 0,
+      "tempo_logado": 0,
+      "paginas": 0
+    },
+    "total_empty_fields": 0,
+    "anomalies": {}
+  },
+  "redes": {
+    "metadata": {
+      "dataset": "redes",
+      "source_file": "Atividade11 - redes.txt",
+      "size_mb": 5.692,
+      "rows": 300000,
+      "columns": [
+        "id_aluno",
+        "interacoes",
+        "seguidores",
+        "seguindo"
+      ],
+      "delimiter_counts": {
+        "|": 300000
+      },
+      "ingested_at": "2026-11-13T18:55:18Z"
+    },
+    "unique_id_aluno": 225241,
+    "id_aluno_match_alunos_pct": 100.0,
+    "exact_duplicates": 0,
+    "empty_counts": {
+      "id_aluno": 0,
+      "interacoes": 0,
+      "seguidores": 0,
+      "seguindo": 0
+    },
+    "total_empty_fields": 0,
+    "anomalies": {}
+  },
+  "financeiro": {
+    "metadata": {
+      "dataset": "financeiro",
+      "source_file": "Atividade11 - Financeiro aluno.txt",
+      "size_mb": 51.2091,
+      "rows": 1000000,
+      "columns": [
+        "id_lancamento",
+        "id_aluno",
+        "competencia",
+        "valor_mensalidade",
+        "valor_desconto",
+        "valor_pago",
+        "situacao_financeira",
+        "forma_pagamento",
+        "data_pagamento"
+      ],
+      "delimiter_counts": {
+        "|": 995100,
+        ";": 4900
+      },
+      "ingested_at": "2026-11-13T18:55:24Z"
+    },
+    "unique_id_aluno": 14001,
+    "id_aluno_match_alunos_pct": 100.0,
+    "exact_duplicates": 0,
+    "empty_counts": {
+      "id_lancamento": 0,
+      "id_aluno": 1213,
+      "competencia": 1253,
+      "valor_mensalidade": 1128,
+      "valor_desconto": 1272,
+      "valor_pago": 1250,
+      "situacao_financeira": 1284,
+      "forma_pagamento": 748149,
+      "data_pagamento": 748110
+    },
+    "total_empty_fields": 1503659,
+    "anomalies": {
+      "situacao_distribuicao": {
+        "PENDENTE": 252869,
+        "PAGO": 251874,
+        "EM_ATRASO": 247216,
+        "CANCELADO": 246757,
+        "": 1284
+      },
+      "delimitadores_detectados": {
+        "|": 995100,
+        ";": 4900
+      }
+    }
+  },
+  "deslocamento": {
+    "metadata": {
+      "dataset": "deslocamento",
+      "source_file": "Atividade11 - Deslocalamento aluno.csv",
+      "size_mb": 0.0788,
+      "rows": 1000,
+      "columns": [
+        "id_deslocamento",
+        "id_aluno",
+        "data_referencia",
+        "cidade_origem",
+        "regiao_origem",
+        "meio_transporte",
+        "distancia_km",
+        "tempo_minutos",
+        "custo_diario"
+      ],
+      "delimiter_counts": {
+        ",": 1000
+      },
+      "ingested_at": "2026-11-13T18:55:36Z"
+    },
+    "unique_id_aluno": 996,
+    "id_aluno_match_alunos_pct": 100.0,
+    "exact_duplicates": 0,
+    "empty_counts": {
+      "id_deslocamento": 0,
+      "id_aluno": 0,
+      "data_referencia": 0,
+      "cidade_origem": 0,
+      "regiao_origem": 0,
+      "meio_transporte": 0,
+      "distancia_km": 0,
+      "tempo_minutos": 0,
+      "custo_diario": 0
+    },
+    "total_empty_fields": 0,
+    "anomalies": {}
+  },
+  "frequencia": {
+    "metadata": {
+      "dataset": "frequencia",
+      "source_file": "Atividade11 - Frequência das Aulas.txt",
+      "size_mb": 0.0017,
+      "rows": 20,
+      "columns": [
+        "id_frequencia",
+        "id_aluno",
+        "data_aula",
+        "curso",
+        "disciplina",
+        "turno",
+        "situacao",
+        "minutos_atraso"
+      ],
+      "delimiter_counts": {
+        "|": 20
+      },
+      "ingested_at": "2026-11-13T18:54:14Z"
+    },
+    "unique_id_aluno": 9,
+    "id_aluno_match_alunos_pct": 100.0,
+    "exact_duplicates": 0,
+    "empty_counts": {
+      "id_frequencia": 0,
+      "id_aluno": 0,
+      "data_aula": 0,
+      "curso": 0,
+      "disciplina": 0,
+      "turno": 0,
+      "situacao": 0,
+      "minutos_atraso": 0
+    },
+    "total_empty_fields": 0,
+    "anomalies": {
+      "situacao_distribuicao": {
+        "Presente": 11,
+        "Atrasado": 5,
+        "Ausente": 4
+      },
+      "escopo_observacao": "Micro-amostra complementar (20 linhas / 9 alunos) — não extrapolar para 1M."
+    }
+  }
+}

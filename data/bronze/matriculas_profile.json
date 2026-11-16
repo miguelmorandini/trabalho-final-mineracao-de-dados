@@ -1,0 +1,39 @@
+{
+  "metadata": {
+    "dataset": "matriculas",
+    "source_file": "Atividade11 - matriculas.txt",
+    "size_mb": 23.9468,
+    "rows": 700000,
+    "columns": [
+      "id_matricula",
+      "id_aluno",
+      "faculdade",
+      "curso",
+      "semestre",
+      "status"
+    ],
+    "delimiter_counts": {
+      "|": 700000
+    },
+    "ingested_at": "2026-11-13T18:54:55Z"
+  },
+  "unique_id_aluno": 376925,
+  "id_aluno_match_alunos_pct": null,
+  "exact_duplicates": 0,
+  "empty_counts": {
+    "id_matricula": 0,
+    "id_aluno": 0,
+    "faculdade": 0,
+    "curso": 0,
+    "semestre": 0,
+    "status": 0
+  },
+  "total_empty_fields": 0,
+  "anomalies": {
+    "status_distribuicao": {
+      "Ativo": 489938,
+      "Evadido": 105176,
+      "Trancado": 104886
+    }
+  }
+}

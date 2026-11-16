@@ -1,0 +1,19 @@
+{
+  "dataset": "notas",
+  "rows_in": 600000,
+  "rows_out": 600000,
+  "duplicates_removed": 0,
+  "mojibake_fixed_disciplina": 0,
+  "notas_invalidas_anuladas": 171127,
+  "nota_media_valida": 4.9974,
+  "nota_mediana_valida": 5.0,
+  "outliers_iqr": {
+    "q1": 2.5,
+    "q3": 7.49,
+    "iqr": 4.99,
+    "lower_bound": -4.985,
+    "upper_bound": 14.975,
+    "outliers": 0
+  },
+  "outliers_zscore": 0
+}

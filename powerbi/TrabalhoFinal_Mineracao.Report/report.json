@@ -1,0 +1,214 @@
+{
+  "config": "{\"version\": \"5.53\", \"themeCollection\": {\"baseTheme\": {\"name\": \"CY24SU06\", \"version\": \"5.53\", \"type\": 2}, \"customTheme\": {\"name\": \"TemaExecutivo.json\", \"version\": \"5.53\", \"type\": 1}}}",
+  "layoutOptimization": 0,
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "name": "RegisteredResources",
+        "type": 1,
+        "items": [
+          {
+            "type": 202,
+            "path": "TemaExecutivo.json",
+            "name": "TemaExecutivo.json"
+          }
+        ]
+      }
+    }
+  ],
+  "sections": [
+    {
+      "name": "ReportSection1",
+      "displayName": "1. Visão Geral",
+      "displayOption": 1,
+      "width": 1280,
+      "height": 720,
+      "ordinal": 0,
+      "visualContainers": [
+        {
+          "x": 24,
+          "y": 24,
+          "z": 0,
+          "width": 940,
+          "height": 58,
+          "config": "{\"name\": \"fdfca5650ef643d9bf2c\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 24, \"y\": 24, \"z\": 0, \"width\": 940, \"height\": 58, \"tabOrder\": 0}}], \"singleVisual\": {\"visualType\": \"textbox\", \"drillFilterOtherVisuals\": true, \"objects\": {\"general\": [{\"properties\": {\"paragraphs\": [{\"textRuns\": [{\"value\": \"1. Visão Geral — Panorama Acadêmico e Evasão\", \"textStyle\": {\"fontWeight\": \"bold\", \"fontSize\": \"14pt\", \"color\": \"#FFFFFF\", \"fontFamily\": \"Segoe UI Semibold\"}}]}, {\"textRuns\": [{\"value\": \"Panorama de 376.925 alunos e 700 mil matrículas | Taxa global 25,14% vs. 28,0% Benchmark INEP\", \"textStyle\": {\"fontSize\": \"9.5pt\", \"color\": \"#CBD5E1\", \"fontFamily\": \"Segoe UI\"}}]}]}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 980,
+          "y": 24,
+          "z": 1,
+          "width": 276,
+          "height": 58,
+          "config": "{\"name\": \"7477a414fbb54b52a2af\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 980, \"y\": 24, \"z\": 1, \"width\": 276, \"height\": 58, \"tabOrder\": 1}}], \"singleVisual\": {\"visualType\": \"slicer\", \"projections\": {\"Values\": [{\"queryRef\": \"dim_faculdade.faculdade\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"df\", \"Entity\": \"dim_faculdade\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"df\"}}, \"Property\": \"faculdade\"}, \"Name\": \"dim_faculdade.faculdade\"}]}, \"drillFilterOtherVisuals\": true, \"objects\": {\"data\": [{\"properties\": {\"mode\": {\"expr\": {\"Literal\": {\"Value\": \"'Dropdown'\"}}}}}], \"header\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}]}, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Filtrar por Faculdade'\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 24,
+          "y": 98,
+          "z": 2,
+          "width": 296,
+          "height": 96,
+          "config": "{\"name\": \"df6c6286178542899c90\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 24, \"y\": 98, \"z\": 2, \"width\": 296, \"height\": 96, \"tabOrder\": 2}}], \"singleVisual\": {\"visualType\": \"card\", \"projections\": {\"Values\": [{\"queryRef\": \"fato_aluno_360.Total Alunos\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"f\", \"Entity\": \"fato_aluno_360\", \"Type\": 0}], \"Select\": [{\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"f\"}}, \"Property\": \"Total Alunos\"}, \"Name\": \"fato_aluno_360.Total Alunos\"}]}, \"drillFilterOtherVisuals\": true, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Alunos Matriculados'\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 336,
+          "y": 98,
+          "z": 3,
+          "width": 296,
+          "height": 96,
+          "config": "{\"name\": \"60750fd31cab44ebbde5\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 336, \"y\": 98, \"z\": 3, \"width\": 296, \"height\": 96, \"tabOrder\": 3}}], \"singleVisual\": {\"visualType\": \"card\", \"projections\": {\"Values\": [{\"queryRef\": \"fato_aluno_360.Taxa Evasao (%)\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"f\", \"Entity\": \"fato_aluno_360\", \"Type\": 0}], \"Select\": [{\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"f\"}}, \"Property\": \"Taxa Evasao (%)\"}, \"Name\": \"fato_aluno_360.Taxa Evasao (%)\"}]}, \"drillFilterOtherVisuals\": true, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Taxa de Evasão Global'\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 648,
+          "y": 98,
+          "z": 4,
+          "width": 296,
+          "height": 96,
+          "config": "{\"name\": \"ee66b2f492fe409a95a2\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 648, \"y\": 98, \"z\": 4, \"width\": 296, \"height\": 96, \"tabOrder\": 4}}], \"singleVisual\": {\"visualType\": \"card\", \"projections\": {\"Values\": [{\"queryRef\": \"fato_aluno_360.Alunos Alto Risco\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"f\", \"Entity\": \"fato_aluno_360\", \"Type\": 0}], \"Select\": [{\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"f\"}}, \"Property\": \"Alunos Alto Risco\"}, \"Name\": \"fato_aluno_360.Alunos Alto Risco\"}]}, \"drillFilterOtherVisuals\": true, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Alunos em Alto Risco Preditivo'\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 960,
+          "y": 98,
+          "z": 5,
+          "width": 296,
+          "height": 96,
+          "config": "{\"name\": \"d8281f25a7674cddab6e\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 960, \"y\": 98, \"z\": 5, \"width\": 296, \"height\": 96, \"tabOrder\": 5}}], \"singleVisual\": {\"visualType\": \"card\", \"projections\": {\"Values\": [{\"queryRef\": \"fato_aluno_360.Nota Media Geral\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"f\", \"Entity\": \"fato_aluno_360\", \"Type\": 0}], \"Select\": [{\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"f\"}}, \"Property\": \"Nota Media Geral\"}, \"Name\": \"fato_aluno_360.Nota Media Geral\"}]}, \"drillFilterOtherVisuals\": true, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Nota Média Válida (0-10)'\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 24,
+          "y": 210,
+          "z": 6,
+          "width": 340,
+          "height": 242,
+          "config": "{\"name\": \"e8ffb311a95c486a92ed\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 24, \"y\": 210, \"z\": 6, \"width\": 340, \"height\": 242, \"tabOrder\": 6}}], \"singleVisual\": {\"visualType\": \"donutChart\", \"projections\": {\"Category\": [{\"queryRef\": \"fato_matriculas.status\"}], \"Y\": [{\"queryRef\": \"fato_matriculas.Total Matriculas\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"m\", \"Entity\": \"fato_matriculas\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"m\"}}, \"Property\": \"status\"}, \"Name\": \"fato_matriculas.status\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"m\"}}, \"Property\": \"Total Matriculas\"}, \"Name\": \"fato_matriculas.Total Matriculas\"}]}, \"drillFilterOtherVisuals\": true, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Composição das Matrículas (700 mil)'\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 380,
+          "y": 210,
+          "z": 7,
+          "width": 472,
+          "height": 242,
+          "config": "{\"name\": \"b8ed5326f1874c718789\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 380, \"y\": 210, \"z\": 7, \"width\": 472, \"height\": 242, \"tabOrder\": 7}}], \"singleVisual\": {\"visualType\": \"clusteredBarChart\", \"projections\": {\"Category\": [{\"queryRef\": \"dim_curso.curso\"}], \"Y\": [{\"queryRef\": \"fato_matriculas.Taxa Evasao Matriculas (%)\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"c\", \"Entity\": \"dim_curso\", \"Type\": 0}, {\"Name\": \"m\", \"Entity\": \"fato_matriculas\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"c\"}}, \"Property\": \"curso\"}, \"Name\": \"dim_curso.curso\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"m\"}}, \"Property\": \"Taxa Evasao Matriculas (%)\"}, \"Name\": \"fato_matriculas.Taxa Evasao Matriculas (%)\"}]}, \"drillFilterOtherVisuals\": true, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Prioridade de Retenção — Evasão (%) por Curso'\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 868,
+          "y": 210,
+          "z": 8,
+          "width": 388,
+          "height": 242,
+          "config": "{\"name\": \"716e2a45b86d4e49aa4d\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 868, \"y\": 210, \"z\": 8, \"width\": 388, \"height\": 242, \"tabOrder\": 8}}], \"singleVisual\": {\"visualType\": \"clusteredColumnChart\", \"projections\": {\"Category\": [{\"queryRef\": \"gold_benchmark_inep.indicador\"}], \"Y\": [{\"queryRef\": \"gold_benchmark_inep.Instituição (%)\"}, {\"queryRef\": \"gold_benchmark_inep.Referência INEP (%)\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"b\", \"Entity\": \"gold_benchmark_inep\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"b\"}}, \"Property\": \"indicador\"}, \"Name\": \"gold_benchmark_inep.indicador\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"b\"}}, \"Property\": \"Instituição (%)\"}, \"Name\": \"gold_benchmark_inep.Instituição (%)\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"b\"}}, \"Property\": \"Referência INEP (%)\"}, \"Name\": \"gold_benchmark_inep.Referência INEP (%)\"}]}, \"drillFilterOtherVisuals\": true, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Indicadores vs. Referência Nacional (INEP)'\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 24,
+          "y": 468,
+          "z": 9,
+          "width": 608,
+          "height": 228,
+          "config": "{\"name\": \"eebc1b196c8b4a789ce3\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 24, \"y\": 468, \"z\": 9, \"width\": 608, \"height\": 228, \"tabOrder\": 9}}], \"singleVisual\": {\"visualType\": \"clusteredColumnChart\", \"projections\": {\"Category\": [{\"queryRef\": \"fato_aluno_360.total_matriculas\"}], \"Y\": [{\"queryRef\": \"fato_aluno_360.Taxa Evasao (%)\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"f\", \"Entity\": \"fato_aluno_360\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"f\"}}, \"Property\": \"total_matriculas\"}, \"Name\": \"fato_aluno_360.total_matriculas\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"f\"}}, \"Property\": \"Taxa Evasao (%)\"}, \"Name\": \"fato_aluno_360.Taxa Evasao (%)\"}]}, \"drillFilterOtherVisuals\": true, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Evasão (%) por Qtd. de Matrículas do Aluno (Salto de Risco)'\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 648,
+          "y": 468,
+          "z": 10,
+          "width": 608,
+          "height": 228,
+          "config": "{\"name\": \"622603c6507c403e9a31\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 648, \"y\": 468, \"z\": 10, \"width\": 608, \"height\": 228, \"tabOrder\": 10}}], \"singleVisual\": {\"visualType\": \"clusteredBarChart\", \"projections\": {\"Category\": [{\"queryRef\": \"dim_faculdade.faculdade\"}], \"Y\": [{\"queryRef\": \"fato_aluno_360.Taxa Evasao (%)\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"df\", \"Entity\": \"dim_faculdade\", \"Type\": 0}, {\"Name\": \"f\", \"Entity\": \"fato_aluno_360\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"df\"}}, \"Property\": \"faculdade\"}, \"Name\": \"dim_faculdade.faculdade\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"f\"}}, \"Property\": \"Taxa Evasao (%)\"}, \"Name\": \"fato_aluno_360.Taxa Evasao (%)\"}]}, \"drillFilterOtherVisuals\": true, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Comparativo de Taxa de Evasão (%) por Faculdade'\"}}}}}]}}}",
+          "filters": "[]"
+        }
+      ],
+      "config": "{}"
+    },
+    {
+      "name": "ReportSection2",
+      "displayName": "2. Perfil & Risco",
+      "displayOption": 1,
+      "width": 1280,
+      "height": 720,
+      "ordinal": 1,
+      "visualContainers": [
+        {
+          "x": 24,
+          "y": 24,
+          "z": 0,
+          "width": 940,
+          "height": 58,
+          "config": "{\"name\": \"d30605f4f6c84b9082c4\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 24, \"y\": 24, \"z\": 0, \"width\": 940, \"height\": 58, \"tabOrder\": 0}}], \"singleVisual\": {\"visualType\": \"textbox\", \"drillFilterOtherVisuals\": true, \"objects\": {\"general\": [{\"properties\": {\"paragraphs\": [{\"textRuns\": [{\"value\": \"2. Diagnóstico & Perfil de Risco — Quem Evade?\", \"textStyle\": {\"fontWeight\": \"bold\", \"fontSize\": \"14pt\", \"color\": \"#FFFFFF\", \"fontFamily\": \"Segoe UI Semibold\"}}]}, {\"textRuns\": [{\"value\": \"Segmentação demográfica, renda, risco preditivo (RandomForest), clusters K-Means e matriz operacional\", \"textStyle\": {\"fontSize\": \"9.5pt\", \"color\": \"#CBD5E1\", \"fontFamily\": \"Segoe UI\"}}]}]}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 980,
+          "y": 24,
+          "z": 1,
+          "width": 276,
+          "height": 58,
+          "config": "{\"name\": \"b334b447ca8a4bad9f6d\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 980, \"y\": 24, \"z\": 1, \"width\": 276, \"height\": 58, \"tabOrder\": 1}}], \"singleVisual\": {\"visualType\": \"slicer\", \"projections\": {\"Values\": [{\"queryRef\": \"fato_aluno_360.faixa_renda\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"f\", \"Entity\": \"fato_aluno_360\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"f\"}}, \"Property\": \"faixa_renda\"}, \"Name\": \"fato_aluno_360.faixa_renda\"}]}, \"drillFilterOtherVisuals\": true, \"objects\": {\"data\": [{\"properties\": {\"mode\": {\"expr\": {\"Literal\": {\"Value\": \"'Dropdown'\"}}}}}], \"header\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}]}, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Filtrar por Faixa de Renda'\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 24,
+          "y": 98,
+          "z": 2,
+          "width": 400,
+          "height": 290,
+          "config": "{\"name\": \"89cca08d836149bdb290\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 24, \"y\": 98, \"z\": 2, \"width\": 400, \"height\": 290, \"tabOrder\": 2}}], \"singleVisual\": {\"visualType\": \"clusteredColumnChart\", \"projections\": {\"Category\": [{\"queryRef\": \"fato_aluno_360.faixa_etaria\"}], \"Y\": [{\"queryRef\": \"fato_aluno_360.Taxa Evasao (%)\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"f\", \"Entity\": \"fato_aluno_360\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"f\"}}, \"Property\": \"faixa_etaria\"}, \"Name\": \"fato_aluno_360.faixa_etaria\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"f\"}}, \"Property\": \"Taxa Evasao (%)\"}, \"Name\": \"fato_aluno_360.Taxa Evasao (%)\"}]}, \"drillFilterOtherVisuals\": true, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Taxa de Evasão (%) por Faixa Etária'\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 440,
+          "y": 98,
+          "z": 3,
+          "width": 400,
+          "height": 290,
+          "config": "{\"name\": \"284cd81c78d543d095a9\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 440, \"y\": 98, \"z\": 3, \"width\": 400, \"height\": 290, \"tabOrder\": 3}}], \"singleVisual\": {\"visualType\": \"clusteredBarChart\", \"projections\": {\"Category\": [{\"queryRef\": \"fato_aluno_360.faixa_renda\"}], \"Y\": [{\"queryRef\": \"fato_aluno_360.Taxa Evasao (%)\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"f\", \"Entity\": \"fato_aluno_360\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"f\"}}, \"Property\": \"faixa_renda\"}, \"Name\": \"fato_aluno_360.faixa_renda\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"f\"}}, \"Property\": \"Taxa Evasao (%)\"}, \"Name\": \"fato_aluno_360.Taxa Evasao (%)\"}]}, \"drillFilterOtherVisuals\": true, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Taxa de Evasão (%) por Quartil de Renda'\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 856,
+          "y": 98,
+          "z": 4,
+          "width": 400,
+          "height": 290,
+          "config": "{\"name\": \"bc1722e74c77447f9a70\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 856, \"y\": 98, \"z\": 4, \"width\": 400, \"height\": 290, \"tabOrder\": 4}}], \"singleVisual\": {\"visualType\": \"clusteredBarChart\", \"projections\": {\"Category\": [{\"queryRef\": \"fato_aluno_360.faixa_risco_evasao\"}], \"Y\": [{\"queryRef\": \"fato_aluno_360.Total Alunos\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"f\", \"Entity\": \"fato_aluno_360\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"f\"}}, \"Property\": \"faixa_risco_evasao\"}, \"Name\": \"fato_aluno_360.faixa_risco_evasao\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"f\"}}, \"Property\": \"Total Alunos\"}, \"Name\": \"fato_aluno_360.Total Alunos\"}]}, \"drillFilterOtherVisuals\": true, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Distribuição de Alunos por Faixa de Risco'\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 24,
+          "y": 404,
+          "z": 5,
+          "width": 420,
+          "height": 292,
+          "config": "{\"name\": \"6f1764cf0797447db628\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 24, \"y\": 404, \"z\": 5, \"width\": 420, \"height\": 292, \"tabOrder\": 5}}], \"singleVisual\": {\"visualType\": \"clusteredBarChart\", \"projections\": {\"Category\": [{\"queryRef\": \"gold_feature_importance.feature\"}], \"Y\": [{\"queryRef\": \"Sum(gold_feature_importance.importancia)\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"fi\", \"Entity\": \"gold_feature_importance\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"fi\"}}, \"Property\": \"feature\"}, \"Name\": \"gold_feature_importance.feature\"}, {\"Aggregation\": {\"Expression\": {\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"fi\"}}, \"Property\": \"importancia\"}}, \"Function\": 0}, \"Name\": \"Sum(gold_feature_importance.importancia)\"}]}, \"drillFilterOtherVisuals\": true, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Principais Fatores de Risco (RandomForest)'\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 460,
+          "y": 404,
+          "z": 6,
+          "width": 380,
+          "height": 292,
+          "config": "{\"name\": \"40228da62e2d4363b686\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 460, \"y\": 404, \"z\": 6, \"width\": 380, \"height\": 292, \"tabOrder\": 6}}], \"singleVisual\": {\"visualType\": \"scatterChart\", \"projections\": {\"Details\": [{\"queryRef\": \"gold_perfil_clusters.cluster_id\"}], \"X\": [{\"queryRef\": \"Sum(gold_perfil_clusters.tempo_logado_medio)\"}], \"Y\": [{\"queryRef\": \"Sum(gold_perfil_clusters.nota_media)\"}], \"Size\": [{\"queryRef\": \"Sum(gold_perfil_clusters.alunos)\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"cl\", \"Entity\": \"gold_perfil_clusters\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"cl\"}}, \"Property\": \"cluster_id\"}, \"Name\": \"gold_perfil_clusters.cluster_id\"}, {\"Aggregation\": {\"Expression\": {\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"cl\"}}, \"Property\": \"tempo_logado_medio\"}}, \"Function\": 0}, \"Name\": \"Sum(gold_perfil_clusters.tempo_logado_medio)\"}, {\"Aggregation\": {\"Expression\": {\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"cl\"}}, \"Property\": \"nota_media\"}}, \"Function\": 0}, \"Name\": \"Sum(gold_perfil_clusters.nota_media)\"}, {\"Aggregation\": {\"Expression\": {\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"cl\"}}, \"Property\": \"alunos\"}}, \"Function\": 0}, \"Name\": \"Sum(gold_perfil_clusters.alunos)\"}]}, \"drillFilterOtherVisuals\": true, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Clusters K-Means: Nota Média × Tempo Logado'\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 856,
+          "y": 404,
+          "z": 7,
+          "width": 400,
+          "height": 292,
+          "config": "{\"name\": \"f9eb6688b36243ac941c\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 856, \"y\": 404, \"z\": 7, \"width\": 400, \"height\": 292, \"tabOrder\": 7}}], \"singleVisual\": {\"visualType\": \"matrix\", \"projections\": {\"Rows\": [{\"queryRef\": \"fato_aluno_360.curso_principal\"}], \"Columns\": [{\"queryRef\": \"fato_aluno_360.faixa_risco_evasao\"}], \"Values\": [{\"queryRef\": \"fato_aluno_360.Total Alunos\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"f\", \"Entity\": \"fato_aluno_360\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"f\"}}, \"Property\": \"curso_principal\"}, \"Name\": \"fato_aluno_360.curso_principal\"}, {\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"f\"}}, \"Property\": \"faixa_risco_evasao\"}, \"Name\": \"fato_aluno_360.faixa_risco_evasao\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"f\"}}, \"Property\": \"Total Alunos\"}, \"Name\": \"fato_aluno_360.Total Alunos\"}]}, \"drillFilterOtherVisuals\": true, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Matriz — Curso × Faixa de Risco'\"}}}}}]}}}",
+          "filters": "[]"
+        }
+      ],
+      "config": "{}"
+    }
+  ]
+}
