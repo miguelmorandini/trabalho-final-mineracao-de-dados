@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "dataset": "acessos",
+    "source_file": "Atividade11 - acessos.txt",
+    "size_mb": 9.2981,
+    "rows": 400000,
+    "columns": [
+      "id_aluno",
+      "data",
+      "tempo_logado",
+      "paginas"
+    ],
+    "delimiter_counts": {
+      "|": 400000
+    },
+    "ingested_at": "2026-11-13T18:55:09Z"
+  },
+  "unique_id_aluno": 275613,
+  "id_aluno_match_alunos_pct": null,
+  "exact_duplicates": 0,
+  "empty_counts": {
+    "id_aluno": 0,
+    "data": 0,
+    "tempo_logado": 0,
+    "paginas": 0
+  },
+  "total_empty_fields": 0,
+  "anomalies": {}
+}

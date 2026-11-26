@@ -1,0 +1,5 @@
+﻿tecnica,n,taxa_evasao_pct
+Amostragem Aleatória Simples,30000,25.51
+Amostragem Estratificada,30000,25.14
+Amostragem Sistemática,30000,25.22
+Amostragem por Clusters,30000,25.15

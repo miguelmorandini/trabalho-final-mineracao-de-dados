@@ -1,0 +1,32 @@
+{
+  "metadata": {
+    "dataset": "notas",
+    "source_file": "Atividade11 - notas.txt",
+    "size_mb": 15.7152,
+    "rows": 600000,
+    "columns": [
+      "id_aluno",
+      "disciplina",
+      "nota",
+      "data"
+    ],
+    "delimiter_counts": {
+      "|": 600000
+    },
+    "ingested_at": "2026-11-13T18:55:02Z"
+  },
+  "unique_id_aluno": 349170,
+  "id_aluno_match_alunos_pct": null,
+  "exact_duplicates": 0,
+  "empty_counts": {
+    "id_aluno": 0,
+    "disciplina": 0,
+    "nota": 0,
+    "data": 0
+  },
+  "total_empty_fields": 0,
+  "anomalies": {
+    "nota_menor_0": 85474,
+    "nota_maior_10": 85653
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "dataset": "financeiro",
+  "rows_in": 1000000,
+  "rows_removed_null_id_aluno": 1213,
+  "rows_out": 993804,
+  "duplicates_removed": 4983,
+  "valor_mensalidade_imputado_mediana": 1128,
+  "valor_mensalidade_mediana": 1438.53,
+  "situacao_imputada_moda": 1284,
+  "situacao_moda": "PENDENTE",
+  "inconsist_mensalidade_negativa": 9979,
+  "inconsist_pago_valor_zero": 5009,
+  "mensalidade_outliers_iqr": {
+    "q1": 909.77,
+    "q3": 1969.65,
+    "iqr": 1059.88,
+    "lower_bound": -680.05,
+    "upper_bound": 3559.47,
+    "outliers": 0
+  },
+  "mensalidade_outliers_zscore": 0
+}

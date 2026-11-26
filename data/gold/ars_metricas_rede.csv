@@ -1,0 +1,9 @@
+﻿no,tipo,grau,centralidade_grau,intermediacao
+FAC:PUC,Faculdade,4,0.5714,0.0714
+CUR:Adm,Curso,4,0.5714,0.0714
+CUR:Direito,Curso,4,0.5714,0.0714
+CUR:Engenharia,Curso,4,0.5714,0.0714
+CUR:Medicina,Curso,4,0.5714,0.0714
+FAC:UNESP,Faculdade,4,0.5714,0.0714
+FAC:UNICAMP,Faculdade,4,0.5714,0.0714
+FAC:USP,Faculdade,4,0.5714,0.0714

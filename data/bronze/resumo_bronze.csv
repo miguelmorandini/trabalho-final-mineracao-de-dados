@@ -1,0 +1,9 @@
+﻿tabela,linhas,colunas,id_aluno_unicos,match_alunos_pct,duplicatas_exatas,total_campos_vazios
+alunos,1000000,7,1000000,100.0,0,17041
+matriculas,700000,6,376925,100.0,0,0
+notas,600000,4,349170,100.0,0,0
+acessos,400000,4,275613,100.0,0,0
+redes,300000,4,225241,100.0,0,0
+financeiro,1000000,9,14001,100.0,0,1503659
+deslocamento,1000,9,996,100.0,0,0
+frequencia,20,8,9,100.0,0,0

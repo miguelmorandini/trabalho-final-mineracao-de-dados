@@ -1,0 +1,39 @@
+{
+  "metadata": {
+    "dataset": "deslocamento",
+    "source_file": "Atividade11 - Deslocalamento aluno.csv",
+    "size_mb": 0.0788,
+    "rows": 1000,
+    "columns": [
+      "id_deslocamento",
+      "id_aluno",
+      "data_referencia",
+      "cidade_origem",
+      "regiao_origem",
+      "meio_transporte",
+      "distancia_km",
+      "tempo_minutos",
+      "custo_diario"
+    ],
+    "delimiter_counts": {
+      ",": 1000
+    },
+    "ingested_at": "2026-11-13T18:55:36Z"
+  },
+  "unique_id_aluno": 996,
+  "id_aluno_match_alunos_pct": null,
+  "exact_duplicates": 0,
+  "empty_counts": {
+    "id_deslocamento": 0,
+    "id_aluno": 0,
+    "data_referencia": 0,
+    "cidade_origem": 0,
+    "regiao_origem": 0,
+    "meio_transporte": 0,
+    "distancia_km": 0,
+    "tempo_minutos": 0,
+    "custo_diario": 0
+  },
+  "total_empty_fields": 0,
+  "anomalies": {}
+}

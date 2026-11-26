@@ -1,0 +1,841 @@
+{
+  "compatibilityLevel": 1567,
+  "model": {
+    "culture": "pt-BR",
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "tables": [
+      {
+        "name": "dim_aluno",
+        "columns": [
+          {
+            "name": "id_aluno",
+            "dataType": "int64",
+            "sourceColumn": "id_aluno",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "sexo",
+            "dataType": "string",
+            "sourceColumn": "sexo",
+            "summarizeBy": "none",
+            "sortByColumn": "ordem_sexo"
+          },
+          {
+            "name": "ordem_sexo",
+            "dataType": "int64",
+            "sourceColumn": "ordem_sexo",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "idade",
+            "dataType": "int64",
+            "sourceColumn": "idade",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "faixa_etaria_detalhada",
+            "dataType": "string",
+            "sourceColumn": "faixa_etaria_detalhada",
+            "summarizeBy": "none",
+            "sortByColumn": "ordem_faixa_etaria"
+          },
+          {
+            "name": "ordem_faixa_etaria",
+            "dataType": "int64",
+            "sourceColumn": "ordem_faixa_etaria",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "cidade",
+            "dataType": "string",
+            "sourceColumn": "cidade",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "top12_cidade",
+            "dataType": "boolean",
+            "sourceColumn": "top12_cidade",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "renda_estimada",
+            "dataType": "double",
+            "sourceColumn": "renda_estimada",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "faixa_renda_detalhada",
+            "dataType": "string",
+            "sourceColumn": "faixa_renda_detalhada",
+            "summarizeBy": "none",
+            "sortByColumn": "ordem_faixa_renda"
+          },
+          {
+            "name": "ordem_faixa_renda",
+            "dataType": "int64",
+            "sourceColumn": "ordem_faixa_renda",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "flag_sexo_ausente",
+            "dataType": "boolean",
+            "sourceColumn": "flag_sexo_ausente",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "flag_cidade_ausente",
+            "dataType": "boolean",
+            "sourceColumn": "flag_cidade_ausente",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "flag_idade_ausente",
+            "dataType": "boolean",
+            "sourceColumn": "flag_idade_ausente",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "flag_renda_ausente",
+            "dataType": "boolean",
+            "sourceColumn": "flag_renda_ausente",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "tem_matricula",
+            "dataType": "boolean",
+            "sourceColumn": "tem_matricula",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "tem_nota",
+            "dataType": "boolean",
+            "sourceColumn": "tem_nota",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "tem_acesso",
+            "dataType": "boolean",
+            "sourceColumn": "tem_acesso",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "tem_redes",
+            "dataType": "boolean",
+            "sourceColumn": "tem_redes",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "tem_financeiro",
+            "dataType": "boolean",
+            "sourceColumn": "tem_financeiro",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "tem_deslocamento",
+            "dataType": "boolean",
+            "sourceColumn": "tem_deslocamento",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "tem_frequencia",
+            "dataType": "boolean",
+            "sourceColumn": "tem_frequencia",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "tem_complementar",
+            "dataType": "boolean",
+            "sourceColumn": "tem_complementar",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "qtd_fontes",
+            "dataType": "int64",
+            "sourceColumn": "qtd_fontes",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "faixa_matriculas",
+            "dataType": "string",
+            "sourceColumn": "faixa_matriculas",
+            "summarizeBy": "none",
+            "sortByColumn": "ordem_matriculas"
+          },
+          {
+            "name": "ordem_matriculas",
+            "dataType": "int64",
+            "sourceColumn": "ordem_matriculas",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "faixa_avaliacoes",
+            "dataType": "string",
+            "sourceColumn": "faixa_avaliacoes",
+            "summarizeBy": "none",
+            "sortByColumn": "ordem_avaliacoes"
+          },
+          {
+            "name": "ordem_avaliacoes",
+            "dataType": "int64",
+            "sourceColumn": "ordem_avaliacoes",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "faixa_acessos",
+            "dataType": "string",
+            "sourceColumn": "faixa_acessos",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "ordem_acessos",
+            "dataType": "int64",
+            "sourceColumn": "ordem_acessos",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "nota_media_clip",
+            "dataType": "double",
+            "sourceColumn": "nota_media_clip",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "faixa_nota",
+            "dataType": "string",
+            "sourceColumn": "faixa_nota",
+            "summarizeBy": "none",
+            "sortByColumn": "ordem_nota"
+          },
+          {
+            "name": "ordem_nota",
+            "dataType": "int64",
+            "sourceColumn": "ordem_nota",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "cobertura_digital",
+            "dataType": "string",
+            "sourceColumn": "cobertura_digital",
+            "summarizeBy": "none",
+            "sortByColumn": "ordem_cobertura_digital"
+          },
+          {
+            "name": "ordem_cobertura_digital",
+            "dataType": "int64",
+            "sourceColumn": "ordem_cobertura_digital",
+            "summarizeBy": "none"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "dim_aluno",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Fonte = Parquet.Document(File.Contents(\"c:\\\\Projects\\\\trabalho-final-mineacao-de-dados\\\\data\\\\gold\\\\dim_aluno.parquet\")),",
+                "    #\"Colunas Selecionadas\" = Table.SelectColumns(Fonte, {\"id_aluno\", \"sexo\", \"ordem_sexo\", \"idade\", \"faixa_etaria_detalhada\", \"ordem_faixa_etaria\", \"cidade\", \"top12_cidade\", \"renda_estimada\", \"faixa_renda_detalhada\", \"ordem_faixa_renda\", \"flag_sexo_ausente\", \"flag_cidade_ausente\", \"flag_idade_ausente\", \"flag_renda_ausente\", \"tem_matricula\", \"tem_nota\", \"tem_acesso\", \"tem_redes\", \"tem_financeiro\", \"tem_deslocamento\", \"tem_frequencia\", \"tem_complementar\", \"qtd_fontes\", \"faixa_matriculas\", \"ordem_matriculas\", \"faixa_avaliacoes\", \"ordem_avaliacoes\", \"faixa_acessos\", \"ordem_acessos\", \"nota_media_clip\", \"faixa_nota\", \"ordem_nota\", \"cobertura_digital\", \"ordem_cobertura_digital\"}),",
+                "    #\"Tipo Alterado\" = Table.TransformColumnTypes(#\"Colunas Selecionadas\", {{\"id_aluno\", Int64.Type}, {\"sexo\", type text}, {\"ordem_sexo\", Int64.Type}, {\"idade\", Int64.Type}, {\"faixa_etaria_detalhada\", type text}, {\"ordem_faixa_etaria\", Int64.Type}, {\"cidade\", type text}, {\"top12_cidade\", type logical}, {\"renda_estimada\", type number}, {\"faixa_renda_detalhada\", type text}, {\"ordem_faixa_renda\", Int64.Type}, {\"flag_sexo_ausente\", type logical}, {\"flag_cidade_ausente\", type logical}, {\"flag_idade_ausente\", type logical}, {\"flag_renda_ausente\", type logical}, {\"tem_matricula\", type logical}, {\"tem_nota\", type logical}, {\"tem_acesso\", type logical}, {\"tem_redes\", type logical}, {\"tem_financeiro\", type logical}, {\"tem_deslocamento\", type logical}, {\"tem_frequencia\", type logical}, {\"tem_complementar\", type logical}, {\"qtd_fontes\", Int64.Type}, {\"faixa_matriculas\", type text}, {\"ordem_matriculas\", Int64.Type}, {\"faixa_avaliacoes\", type text}, {\"ordem_avaliacoes\", Int64.Type}, {\"faixa_acessos\", type text}, {\"ordem_acessos\", Int64.Type}, {\"nota_media_clip\", type number}, {\"faixa_nota\", type text}, {\"ordem_nota\", Int64.Type}, {\"cobertura_digital\", type text}, {\"ordem_cobertura_digital\", Int64.Type}})",
+                "in",
+                "    #\"Tipo Alterado\""
+              ]
+            }
+          }
+        ],
+        "measures": [
+          {
+            "name": "Qtd Estudantes",
+            "expression": "COUNTROWS(dim_aluno)",
+            "formatString": "0"
+          },
+          {
+            "name": "Qtd Estudantes Acessos",
+            "expression": "COUNTROWS(dim_aluno) + 0",
+            "formatString": "0"
+          },
+          {
+            "name": "Total de Estudantes",
+            "expression": "VAR v = COUNTROWS(dim_aluno) RETURN IF(v >= 1000000, FORMAT(DIVIDE(v, 1000000), \"0\") & \" Mi\", FORMAT(v, \"0\"))"
+          },
+          {
+            "name": "Bases Integradas",
+            "expression": "8",
+            "formatString": "0"
+          },
+          {
+            "name": "Total de Variáveis",
+            "expression": "79",
+            "formatString": "0"
+          },
+          {
+            "name": "Cobertura Complementar",
+            "expression": "DIVIDE(CALCULATE(COUNTROWS(dim_aluno), dim_aluno[tem_complementar] = TRUE()), COUNTROWS(dim_aluno), 0)",
+            "formatString": "0.00%"
+          },
+          {
+            "name": "Estudantes com Matrículas",
+            "expression": "DIVIDE(CALCULATE(COUNTROWS(dim_aluno), dim_aluno[tem_matricula] = TRUE()), COUNTROWS(dim_aluno), 0)",
+            "formatString": "0.00%"
+          },
+          {
+            "name": "Estudantes com Avaliações",
+            "expression": "DIVIDE(CALCULATE(COUNTROWS(dim_aluno), dim_aluno[tem_nota] = TRUE()), COUNTROWS(dim_aluno), 0)",
+            "formatString": "0.00%"
+          },
+          {
+            "name": "Estudantes com Dados Financeiros",
+            "expression": "DIVIDE(CALCULATE(COUNTROWS(dim_aluno), dim_aluno[tem_financeiro] = TRUE()), COUNTROWS(dim_aluno), 0)",
+            "formatString": "0.00%"
+          },
+          {
+            "name": "Cobertura de Acessos",
+            "expression": "DIVIDE(CALCULATE(COUNTROWS(dim_aluno), dim_aluno[tem_acesso] = TRUE()), COUNTROWS(dim_aluno), 0)",
+            "formatString": "0.00%"
+          },
+          {
+            "name": "Cobertura de Redes Sociais",
+            "expression": "DIVIDE(CALCULATE(COUNTROWS(dim_aluno), dim_aluno[tem_redes] = TRUE()), COUNTROWS(dim_aluno), 0)",
+            "formatString": "0.00%"
+          },
+          {
+            "name": "Cobertura Digital Conjunta",
+            "expression": "DIVIDE(CALCULATE(COUNTROWS(dim_aluno), dim_aluno[cobertura_digital] = \"Acessos e redes\"), COUNTROWS(dim_aluno), 0)",
+            "formatString": "0.00%"
+          },
+          {
+            "name": "Sem Registros Digitais",
+            "expression": "DIVIDE(CALCULATE(COUNTROWS(dim_aluno), dim_aluno[cobertura_digital] = \"Nenhuma das duas\"), COUNTROWS(dim_aluno), 0)",
+            "formatString": "0.00%"
+          },
+          {
+            "name": "Média das Notas",
+            "expression": "AVERAGE(dim_aluno[nota_media_clip])",
+            "formatString": "0.00"
+          }
+        ]
+      },
+      {
+        "name": "fato_matriculas",
+        "columns": [
+          {
+            "name": "id_matricula",
+            "dataType": "int64",
+            "sourceColumn": "id_matricula",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "id_aluno",
+            "dataType": "int64",
+            "sourceColumn": "id_aluno",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "id_curso",
+            "dataType": "int64",
+            "sourceColumn": "id_curso",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "faculdade",
+            "dataType": "string",
+            "sourceColumn": "faculdade",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "curso",
+            "dataType": "string",
+            "sourceColumn": "curso",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "semestre",
+            "dataType": "string",
+            "sourceColumn": "semestre",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "status",
+            "dataType": "string",
+            "sourceColumn": "status",
+            "summarizeBy": "none",
+            "sortByColumn": "ordem_status"
+          },
+          {
+            "name": "ordem_status",
+            "dataType": "int64",
+            "sourceColumn": "ordem_status",
+            "summarizeBy": "none"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "fato_matriculas",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Fonte = Parquet.Document(File.Contents(\"c:\\\\Projects\\\\trabalho-final-mineacao-de-dados\\\\data\\\\gold\\\\fato_matriculas.parquet\")),",
+                "    #\"Colunas Selecionadas\" = Table.SelectColumns(Fonte, {\"id_matricula\", \"id_aluno\", \"id_curso\", \"faculdade\", \"curso\", \"semestre\", \"status\", \"ordem_status\"}),",
+                "    #\"Tipo Alterado\" = Table.TransformColumnTypes(#\"Colunas Selecionadas\", {{\"id_matricula\", Int64.Type}, {\"id_aluno\", Int64.Type}, {\"id_curso\", Int64.Type}, {\"faculdade\", type text}, {\"curso\", type text}, {\"semestre\", type text}, {\"status\", type text}, {\"ordem_status\", Int64.Type}})",
+                "in",
+                "    #\"Tipo Alterado\""
+              ]
+            }
+          }
+        ],
+        "measures": [
+          {
+            "name": "Qtd Matrículas",
+            "expression": "COUNTROWS(fato_matriculas)",
+            "formatString": "0"
+          }
+        ]
+      },
+      {
+        "name": "fato_financeiro",
+        "columns": [
+          {
+            "name": "id_lancamento",
+            "dataType": "int64",
+            "sourceColumn": "id_lancamento",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "id_aluno",
+            "dataType": "int64",
+            "sourceColumn": "id_aluno",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "valor_mensalidade",
+            "dataType": "double",
+            "sourceColumn": "valor_mensalidade",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "valor_pago",
+            "dataType": "double",
+            "sourceColumn": "valor_pago",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "situacao_financeira_raw",
+            "dataType": "string",
+            "sourceColumn": "situacao_financeira_raw",
+            "summarizeBy": "none",
+            "sortByColumn": "ordem_situacao"
+          },
+          {
+            "name": "ordem_situacao",
+            "dataType": "int64",
+            "sourceColumn": "ordem_situacao",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "flag_mensalidade_negativa",
+            "dataType": "boolean",
+            "sourceColumn": "flag_mensalidade_negativa",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "flag_pago_valor_zero",
+            "dataType": "boolean",
+            "sourceColumn": "flag_pago_valor_zero",
+            "summarizeBy": "none"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "fato_financeiro",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Fonte = Parquet.Document(File.Contents(\"c:\\\\Projects\\\\trabalho-final-mineacao-de-dados\\\\data\\\\gold\\\\fato_financeiro.parquet\")),",
+                "    #\"Colunas Selecionadas\" = Table.SelectColumns(Fonte, {\"id_lancamento\", \"id_aluno\", \"valor_mensalidade\", \"valor_pago\", \"situacao_financeira_raw\", \"ordem_situacao\", \"flag_mensalidade_negativa\", \"flag_pago_valor_zero\"}),",
+                "    #\"Tipo Alterado\" = Table.TransformColumnTypes(#\"Colunas Selecionadas\", {{\"id_lancamento\", Int64.Type}, {\"id_aluno\", Int64.Type}, {\"valor_mensalidade\", type number}, {\"valor_pago\", type number}, {\"situacao_financeira_raw\", type text}, {\"ordem_situacao\", Int64.Type}, {\"flag_mensalidade_negativa\", type logical}, {\"flag_pago_valor_zero\", type logical}})",
+                "in",
+                "    #\"Tipo Alterado\""
+              ]
+            }
+          }
+        ],
+        "measures": [
+          {
+            "name": "Qtd Registros Financeiros",
+            "expression": "COUNTROWS(fato_financeiro)",
+            "formatString": "0"
+          },
+          {
+            "name": "Registros Financeiros Vinculados",
+            "expression": "VAR v = COUNTROWS(fato_financeiro) RETURN FORMAT(ROUND(DIVIDE(v, 1000), 0), \"0\") & \" Mil\""
+          }
+        ]
+      },
+      {
+        "name": "fato_notas",
+        "columns": [
+          {
+            "name": "id_aluno",
+            "dataType": "int64",
+            "sourceColumn": "id_aluno",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "disciplina",
+            "dataType": "string",
+            "sourceColumn": "disciplina",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "nota",
+            "dataType": "double",
+            "sourceColumn": "nota",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "nota_clip",
+            "dataType": "double",
+            "sourceColumn": "nota_clip",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "flag_nota_invalida",
+            "dataType": "boolean",
+            "sourceColumn": "flag_nota_invalida",
+            "summarizeBy": "none"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "fato_notas",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Fonte = Parquet.Document(File.Contents(\"c:\\\\Projects\\\\trabalho-final-mineacao-de-dados\\\\data\\\\gold\\\\fato_notas.parquet\")),",
+                "    #\"Colunas Selecionadas\" = Table.SelectColumns(Fonte, {\"id_aluno\", \"disciplina\", \"nota\", \"nota_clip\", \"flag_nota_invalida\"}),",
+                "    #\"Tipo Alterado\" = Table.TransformColumnTypes(#\"Colunas Selecionadas\", {{\"id_aluno\", Int64.Type}, {\"disciplina\", type text}, {\"nota\", type number}, {\"nota_clip\", type number}, {\"flag_nota_invalida\", type logical}})",
+                "in",
+                "    #\"Tipo Alterado\""
+              ]
+            }
+          }
+        ],
+        "measures": [
+          {
+            "name": "Qtd Avaliações",
+            "expression": "COUNTROWS(fato_notas)",
+            "formatString": "0"
+          }
+        ]
+      },
+      {
+        "name": "dim_curso",
+        "columns": [
+          {
+            "name": "id_curso",
+            "dataType": "int64",
+            "sourceColumn": "id_curso",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "faculdade",
+            "dataType": "string",
+            "sourceColumn": "faculdade",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "curso",
+            "dataType": "string",
+            "sourceColumn": "curso",
+            "summarizeBy": "none"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "dim_curso",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Fonte = Parquet.Document(File.Contents(\"c:\\\\Projects\\\\trabalho-final-mineacao-de-dados\\\\data\\\\gold\\\\dim_curso.parquet\")),",
+                "    #\"Colunas Selecionadas\" = Table.SelectColumns(Fonte, {\"id_curso\", \"faculdade\", \"curso\"}),",
+                "    #\"Tipo Alterado\" = Table.TransformColumnTypes(#\"Colunas Selecionadas\", {{\"id_curso\", Int64.Type}, {\"faculdade\", type text}, {\"curso\", type text}})",
+                "in",
+                "    #\"Tipo Alterado\""
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "dim_faixa_acessos",
+        "columns": [
+          {
+            "name": "faixa_acessos",
+            "dataType": "string",
+            "sourceColumn": "faixa_acessos",
+            "summarizeBy": "none",
+            "sortByColumn": "ordem"
+          },
+          {
+            "name": "ordem",
+            "dataType": "int64",
+            "sourceColumn": "ordem",
+            "summarizeBy": "none"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "dim_faixa_acessos",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Fonte = #table(type table [faixa_acessos = text, ordem = Int64.Type], {{\"0\", 1}, {\"1\", 2}, {\"2–3\", 3}, {\"4–5\", 4}, {\"6–10\", 5}, {\"11+\", 6}})",
+                "in",
+                "    Fonte"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "resumo_cobertura_fontes",
+        "columns": [
+          {
+            "name": "Fonte",
+            "dataType": "string",
+            "sourceColumn": "Fonte",
+            "summarizeBy": "none",
+            "sortByColumn": "Ordem"
+          },
+          {
+            "name": "Estudantes",
+            "dataType": "int64",
+            "sourceColumn": "Estudantes",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Ordem",
+            "dataType": "int64",
+            "sourceColumn": "Ordem",
+            "summarizeBy": "none"
+          }
+        ],
+        "measures": [
+          {
+            "name": "Qtd Estudantes Fonte",
+            "expression": "SUM(resumo_cobertura_fontes[Estudantes])",
+            "formatString": "0"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "resumo_cobertura_fontes",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Fonte = Parquet.Document(File.Contents(\"c:\\\\Projects\\\\trabalho-final-mineacao-de-dados\\\\data\\\\gold\\\\dim_aluno.parquet\")),",
+                "    Cols = Table.SelectColumns(Fonte, {\"tem_matricula\", \"tem_nota\", \"tem_acesso\", \"tem_redes\", \"tem_financeiro\", \"tem_deslocamento\", \"tem_frequencia\"}),",
+                "    Agr = Table.Group(Cols, {}, {",
+                "        {\"Matrículas\", (t) => Table.RowCount(Table.SelectRows(t, (r) => r[tem_matricula] = true)), Int64.Type},",
+                "        {\"Notas\", (t) => Table.RowCount(Table.SelectRows(t, (r) => r[tem_nota] = true)), Int64.Type},",
+                "        {\"Acessos\", (t) => Table.RowCount(Table.SelectRows(t, (r) => r[tem_acesso] = true)), Int64.Type},",
+                "        {\"Redes sociais\", (t) => Table.RowCount(Table.SelectRows(t, (r) => r[tem_redes] = true)), Int64.Type},",
+                "        {\"Financeiro\", (t) => Table.RowCount(Table.SelectRows(t, (r) => r[tem_financeiro] = true)), Int64.Type},",
+                "        {\"Deslocamento\", (t) => Table.RowCount(Table.SelectRows(t, (r) => r[tem_deslocamento] = true)), Int64.Type},",
+                "        {\"Frequência\", (t) => Table.RowCount(Table.SelectRows(t, (r) => r[tem_frequencia] = true)), Int64.Type}",
+                "    }),",
+                "    Row = Agr{0},",
+                "    Tabela = #table(",
+                "        type table [Fonte = text, Estudantes = Int64.Type, Ordem = Int64.Type],",
+                "        {",
+                "            {\"Matrículas\", Row[Matrículas], 1},",
+                "            {\"Notas\", Row[Notas], 2},",
+                "            {\"Acessos\", Row[Acessos], 3},",
+                "            {\"Redes sociais\", Row[Redes sociais], 4},",
+                "            {\"Financeiro\", Row[Financeiro], 5},",
+                "            {\"Deslocamento\", Row[Deslocamento], 6},",
+                "            {\"Frequência\", Row[Frequência], 7}",
+                "        }",
+                "    )",
+                "in",
+                "    Tabela"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "resumo_inconsistencias_fin",
+        "columns": [
+          {
+            "name": "Inconsistência",
+            "dataType": "string",
+            "sourceColumn": "Inconsistência",
+            "summarizeBy": "none",
+            "sortByColumn": "Ordem"
+          },
+          {
+            "name": "Quantidade",
+            "dataType": "int64",
+            "sourceColumn": "Quantidade",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Ordem",
+            "dataType": "int64",
+            "sourceColumn": "Ordem",
+            "summarizeBy": "none"
+          }
+        ],
+        "measures": [
+          {
+            "name": "Qtd Inconsistências",
+            "expression": "SUM(resumo_inconsistencias_fin[Quantidade])",
+            "formatString": "0"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "resumo_inconsistencias_fin",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Fonte = Parquet.Document(File.Contents(\"c:\\\\Projects\\\\trabalho-final-mineacao-de-dados\\\\data\\\\gold\\\\fato_financeiro.parquet\")),",
+                "    Cols = Table.SelectColumns(Fonte, {\"flag_mensalidade_negativa\", \"flag_pago_valor_zero\"}),",
+                "    Agr = Table.Group(Cols, {}, {",
+                "        {\"MensNeg\", (t) => Table.RowCount(Table.SelectRows(t, (r) => r[flag_mensalidade_negativa] = true)), Int64.Type},",
+                "        {\"PagoZero\", (t) => Table.RowCount(Table.SelectRows(t, (r) => r[flag_pago_valor_zero] = true)), Int64.Type}",
+                "    }),",
+                "    Row = Agr{0},",
+                "    Tabela = #table(",
+                "        type table [Inconsistência = text, Quantidade = Int64.Type, Ordem = Int64.Type],",
+                "        {",
+                "            {\"Mensalidade negativa\", Row[MensNeg], 1},",
+                "            {\"Pago com valor zero\", Row[PagoZero], 2}",
+                "        }",
+                "    )",
+                "in",
+                "    Tabela"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "resumo_dados_ausentes",
+        "columns": [
+          {
+            "name": "Campo",
+            "dataType": "string",
+            "sourceColumn": "Campo",
+            "summarizeBy": "none",
+            "sortByColumn": "Ordem"
+          },
+          {
+            "name": "Ausentes",
+            "dataType": "int64",
+            "sourceColumn": "Ausentes",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Ordem",
+            "dataType": "int64",
+            "sourceColumn": "Ordem",
+            "summarizeBy": "none"
+          }
+        ],
+        "measures": [
+          {
+            "name": "Qtd Ausentes",
+            "expression": "SUM(resumo_dados_ausentes[Ausentes])",
+            "formatString": "0"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "resumo_dados_ausentes",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Fonte = Parquet.Document(File.Contents(\"c:\\\\Projects\\\\trabalho-final-mineacao-de-dados\\\\data\\\\gold\\\\dim_aluno.parquet\")),",
+                "    Cols = Table.SelectColumns(Fonte, {\"tem_nota\", \"flag_renda_ausente\", \"flag_cidade_ausente\", \"flag_idade_ausente\", \"flag_sexo_ausente\"}),",
+                "    Agr = Table.Group(Cols, {}, {",
+                "        {\"MediaNotas\", (t) => Table.RowCount(Table.SelectRows(t, (r) => r[tem_nota] = false)), Int64.Type},",
+                "        {\"Renda\", (t) => Table.RowCount(Table.SelectRows(t, (r) => r[flag_renda_ausente] = true)), Int64.Type},",
+                "        {\"Cidade\", (t) => Table.RowCount(Table.SelectRows(t, (r) => r[flag_cidade_ausente] = true)), Int64.Type},",
+                "        {\"Idade\", (t) => Table.RowCount(Table.SelectRows(t, (r) => r[flag_idade_ausente] = true)), Int64.Type},",
+                "        {\"Sexo\", (t) => Table.RowCount(Table.SelectRows(t, (r) => r[flag_sexo_ausente] = true)), Int64.Type}",
+                "    }),",
+                "    Row = Agr{0},",
+                "    Tabela = #table(",
+                "        type table [Campo = text, Ausentes = Int64.Type, Ordem = Int64.Type],",
+                "        {",
+                "            {\"Média das notas\", Row[MediaNotas], 1},",
+                "            {\"Renda estimada\", Row[Renda], 2},",
+                "            {\"Cidade\", Row[Cidade], 3},",
+                "            {\"Idade\", Row[Idade], 4},",
+                "            {\"Sexo\", Row[Sexo], 5}",
+                "        }",
+                "    )",
+                "in",
+                "    Tabela"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "name": "63c5cfc5-ceab-4531-97b1-e4527cfc4c23",
+        "fromTable": "fato_matriculas",
+        "fromColumn": "id_aluno",
+        "toTable": "dim_aluno",
+        "toColumn": "id_aluno"
+      },
+      {
+        "name": "25c01125-260d-42a4-8d72-6c0776b60b5e",
+        "fromTable": "fato_matriculas",
+        "fromColumn": "id_curso",
+        "toTable": "dim_curso",
+        "toColumn": "id_curso"
+      },
+      {
+        "name": "ccc29f03-1ea4-4b79-90b7-3b2fe92d1ffc",
+        "fromTable": "fato_financeiro",
+        "fromColumn": "id_aluno",
+        "toTable": "dim_aluno",
+        "toColumn": "id_aluno"
+      },
+      {
+        "name": "604a1557-0ccf-4ca2-81aa-b922fb8fa1b3",
+        "fromTable": "fato_notas",
+        "fromColumn": "id_aluno",
+        "toTable": "dim_aluno",
+        "toColumn": "id_aluno"
+      },
+      {
+        "name": "aec44544-0655-4540-9487-e37bca281c09",
+        "fromTable": "dim_aluno",
+        "fromColumn": "faixa_acessos",
+        "toTable": "dim_faixa_acessos",
+        "toColumn": "faixa_acessos"
+      }
+    ]
+  }
+}

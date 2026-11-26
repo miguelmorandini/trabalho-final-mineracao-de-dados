@@ -1,0 +1,25 @@
+# Ambiente virtual e Python
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Bases brutas, slides e arquivos Parquet/CSV pesados (> 1 MB)
+*.zip
+Bases TRabalho Final/
+aulas-mineracao-de-dados/
+data/bronze/*.parquet
+data/silver/*.parquet
+data/gold/*.parquet
+data/gold/dim_aluno.csv
+data/gold/fato_aluno_360.csv
+data/gold/fato_financeiro.csv
+data/gold/fato_notas.csv
+data/gold/fato_matriculas.csv
+
+# Arquivos temporários do Power BI e sistema operacional
+powerbi/**/.pbi/localSettings.json
+powerbi/**/SecurityBindings
+.DS_Store
+Thumbs.db

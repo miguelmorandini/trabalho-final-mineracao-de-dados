@@ -1,0 +1,432 @@
+{
+  "config": "{\"version\": \"5.53\", \"themeCollection\": {\"baseTheme\": {\"name\": \"CY24SU06\", \"version\": \"5.53\", \"type\": 2}, \"customTheme\": {\"name\": \"TemaExecutivo.json\", \"version\": \"5.53\", \"type\": 1}}}",
+  "layoutOptimization": 0,
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "name": "RegisteredResources",
+        "type": 1,
+        "items": [
+          {
+            "type": 202,
+            "path": "TemaExecutivo.json",
+            "name": "TemaExecutivo.json"
+          }
+        ]
+      }
+    }
+  ],
+  "sections": [
+    {
+      "name": "ReportSection1",
+      "displayName": "1. Perfil e Cobertura",
+      "displayOption": 1,
+      "width": 1280,
+      "height": 720,
+      "ordinal": 0,
+      "visualContainers": [
+        {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "width": 1280,
+          "height": 82,
+          "config": "{\"name\": \"8f79e5fb965c49b898e9\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 0, \"y\": 0, \"z\": 0, \"width\": 1280, \"height\": 82, \"tabOrder\": 0}}], \"singleVisual\": {\"visualType\": \"textbox\", \"drillFilterOtherVisuals\": true, \"objects\": {\"general\": [{\"properties\": {\"paragraphs\": [{\"horizontalTextAlignment\": \"center\", \"textRuns\": [{\"value\": \"PERFIL DOS ESTUDANTES E COBERTURA DOS DADOS\", \"textStyle\": {\"fontWeight\": \"bold\", \"fontSize\": \"22pt\", \"color\": \"#FFFFFF\", \"fontFamily\": \"Segoe UI Bold\"}}]}, {\"horizontalTextAlignment\": \"center\", \"textRuns\": [{\"value\": \"Análise integrada de dados estudantis\", \"textStyle\": {\"fontSize\": \"10pt\", \"color\": \"#E2E8F0\", \"fontFamily\": \"Segoe UI\"}}]}]}}]}, \"vcObjects\": {\"background\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"color\": {\"solid\": {\"color\": {\"expr\": {\"Literal\": {\"Value\": \"'#0F304D'\"}}}}}, \"transparency\": {\"expr\": {\"Literal\": {\"Value\": \"0D\"}}}}}], \"border\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 24,
+          "y": 96,
+          "z": 1,
+          "width": 296,
+          "height": 78,
+          "config": "{\"name\": \"915de07c590f4766a964\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 24, \"y\": 96, \"z\": 1, \"width\": 296, \"height\": 78, \"tabOrder\": 1}}], \"singleVisual\": {\"visualType\": \"card\", \"projections\": {\"Values\": [{\"queryRef\": \"dim_aluno.Total de Estudantes\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"k\", \"Entity\": \"dim_aluno\", \"Type\": 0}], \"Select\": [{\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"k\"}}, \"Property\": \"Total de Estudantes\"}, \"Name\": \"dim_aluno.Total de Estudantes\"}]}, \"drillFilterOtherVisuals\": true, \"objects\": {\"labels\": [{\"properties\": {\"labelDisplayUnits\": {\"expr\": {\"Literal\": {\"Value\": \"1D\"}}}}}], \"categoryLabels\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}]}, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Total de Estudantes'\"}}}, \"alignment\": {\"expr\": {\"Literal\": {\"Value\": \"'center'\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 336,
+          "y": 96,
+          "z": 2,
+          "width": 296,
+          "height": 78,
+          "config": "{\"name\": \"37b0ea396a6240e5b96d\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 336, \"y\": 96, \"z\": 2, \"width\": 296, \"height\": 78, \"tabOrder\": 2}}], \"singleVisual\": {\"visualType\": \"card\", \"projections\": {\"Values\": [{\"queryRef\": \"dim_aluno.Bases Integradas\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"k\", \"Entity\": \"dim_aluno\", \"Type\": 0}], \"Select\": [{\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"k\"}}, \"Property\": \"Bases Integradas\"}, \"Name\": \"dim_aluno.Bases Integradas\"}]}, \"drillFilterOtherVisuals\": true, \"objects\": {\"labels\": [{\"properties\": {\"labelDisplayUnits\": {\"expr\": {\"Literal\": {\"Value\": \"1D\"}}}}}], \"categoryLabels\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}]}, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Bases Integradas'\"}}}, \"alignment\": {\"expr\": {\"Literal\": {\"Value\": \"'center'\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 648,
+          "y": 96,
+          "z": 3,
+          "width": 296,
+          "height": 78,
+          "config": "{\"name\": \"dc43afa9a2cd4d5f8c9d\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 648, \"y\": 96, \"z\": 3, \"width\": 296, \"height\": 78, \"tabOrder\": 3}}], \"singleVisual\": {\"visualType\": \"card\", \"projections\": {\"Values\": [{\"queryRef\": \"dim_aluno.Total de Variáveis\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"k\", \"Entity\": \"dim_aluno\", \"Type\": 0}], \"Select\": [{\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"k\"}}, \"Property\": \"Total de Variáveis\"}, \"Name\": \"dim_aluno.Total de Variáveis\"}]}, \"drillFilterOtherVisuals\": true, \"objects\": {\"labels\": [{\"properties\": {\"labelDisplayUnits\": {\"expr\": {\"Literal\": {\"Value\": \"1D\"}}}}}], \"categoryLabels\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}]}, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Total de Variáveis'\"}}}, \"alignment\": {\"expr\": {\"Literal\": {\"Value\": \"'center'\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 960,
+          "y": 96,
+          "z": 4,
+          "width": 296,
+          "height": 78,
+          "config": "{\"name\": \"7b6606ba2fd24db9b250\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 960, \"y\": 96, \"z\": 4, \"width\": 296, \"height\": 78, \"tabOrder\": 4}}], \"singleVisual\": {\"visualType\": \"card\", \"projections\": {\"Values\": [{\"queryRef\": \"dim_aluno.Cobertura Complementar\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"k\", \"Entity\": \"dim_aluno\", \"Type\": 0}], \"Select\": [{\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"k\"}}, \"Property\": \"Cobertura Complementar\"}, \"Name\": \"dim_aluno.Cobertura Complementar\"}]}, \"drillFilterOtherVisuals\": true, \"objects\": {\"labels\": [{\"properties\": {\"labelDisplayUnits\": {\"expr\": {\"Literal\": {\"Value\": \"1D\"}}}}}], \"categoryLabels\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}]}, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Cobertura Complementar'\"}}}, \"alignment\": {\"expr\": {\"Literal\": {\"Value\": \"'center'\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 24,
+          "y": 190,
+          "z": 5,
+          "width": 400,
+          "height": 222,
+          "config": "{\"name\": \"1f2a511e652f43c69afa\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 24, \"y\": 190, \"z\": 5, \"width\": 400, \"height\": 222, \"tabOrder\": 5}}], \"singleVisual\": {\"visualType\": \"clusteredColumnChart\", \"projections\": {\"Category\": [{\"queryRef\": \"dim_aluno.faixa_etaria_detalhada\", \"active\": true}], \"Y\": [{\"queryRef\": \"dim_aluno.Qtd Estudantes\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"t\", \"Entity\": \"dim_aluno\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"faixa_etaria_detalhada\"}, \"Name\": \"dim_aluno.faixa_etaria_detalhada\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"Qtd Estudantes\"}, \"Name\": \"dim_aluno.Qtd Estudantes\"}], \"OrderBy\": [{\"Direction\": 1, \"Expression\": {\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"faixa_etaria_detalhada\"}}}]}, \"drillFilterOtherVisuals\": true, \"objects\": {\"categoryAxis\": [{\"properties\": {\"showAxisTitle\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"titleText\": {\"expr\": {\"Literal\": {\"Value\": \"'Faixa etária'\"}}}}}], \"valueAxis\": [{\"properties\": {\"showAxisTitle\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"labelDisplayUnits\": {\"expr\": {\"Literal\": {\"Value\": \"1000D\"}}}, \"titleText\": {\"expr\": {\"Literal\": {\"Value\": \"'Quantidade de estudantes'\"}}}, \"end\": {\"expr\": {\"Literal\": {\"Value\": \"400000D\"}}}}}], \"labels\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"labelDisplayUnits\": {\"expr\": {\"Literal\": {\"Value\": \"1D\"}}}, \"labelPrecision\": {\"expr\": {\"Literal\": {\"Value\": \"0L\"}}}, \"labelPosition\": {\"expr\": {\"Literal\": {\"Value\": \"'OutsideEnd'\"}}}}}], \"legend\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}]}, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Distribuição dos estudantes por faixa etária'\"}}}}}]}}}",
+          "filters": "[{\"name\": \"7d010404cb5f43d4\", \"expression\": {\"Column\": {\"Expression\": {\"SourceRef\": {\"Entity\": \"dim_aluno\"}}, \"Property\": \"flag_idade_ausente\"}}, \"filter\": {\"Version\": 2, \"From\": [{\"Name\": \"f\", \"Entity\": \"dim_aluno\", \"Type\": 0}], \"Where\": [{\"Condition\": {\"Comparison\": {\"ComparisonKind\": 0, \"Left\": {\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"f\"}}, \"Property\": \"flag_idade_ausente\"}}, \"Right\": {\"Literal\": {\"Value\": \"false\"}}}}}]}, \"type\": \"Categorical\", \"howCreated\": 1}]"
+        },
+        {
+          "x": 440,
+          "y": 190,
+          "z": 6,
+          "width": 400,
+          "height": 222,
+          "config": "{\"name\": \"5def05ca19ec45879e1e\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 440, \"y\": 190, \"z\": 6, \"width\": 400, \"height\": 222, \"tabOrder\": 6}}], \"singleVisual\": {\"visualType\": \"donutChart\", \"projections\": {\"Category\": [{\"queryRef\": \"dim_aluno.sexo\", \"active\": true}], \"Y\": [{\"queryRef\": \"dim_aluno.Qtd Estudantes\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"t\", \"Entity\": \"dim_aluno\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"sexo\"}, \"Name\": \"dim_aluno.sexo\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"Qtd Estudantes\"}, \"Name\": \"dim_aluno.Qtd Estudantes\"}], \"OrderBy\": [{\"Direction\": 1, \"Expression\": {\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"sexo\"}}}]}, \"drillFilterOtherVisuals\": true, \"objects\": {\"dataPoint\": [{\"properties\": {\"fill\": {\"solid\": {\"color\": {\"expr\": {\"Literal\": {\"Value\": \"'#008080'\"}}}}}}, \"selector\": {\"data\": [{\"scopeId\": {\"Comparison\": {\"ComparisonKind\": 0, \"Left\": {\"Column\": {\"Expression\": {\"SourceRef\": {\"Entity\": \"dim_aluno\"}}, \"Property\": \"sexo\"}}, \"Right\": {\"Literal\": {\"Value\": \"'Feminino'\"}}}}}]}}, {\"properties\": {\"fill\": {\"solid\": {\"color\": {\"expr\": {\"Literal\": {\"Value\": \"'#0E6091'\"}}}}}}, \"selector\": {\"data\": [{\"scopeId\": {\"Comparison\": {\"ComparisonKind\": 0, \"Left\": {\"Column\": {\"Expression\": {\"SourceRef\": {\"Entity\": \"dim_aluno\"}}, \"Property\": \"sexo\"}}, \"Right\": {\"Literal\": {\"Value\": \"'Masculino'\"}}}}}]}}, {\"properties\": {\"fill\": {\"solid\": {\"color\": {\"expr\": {\"Literal\": {\"Value\": \"'#E06C1F'\"}}}}}}, \"selector\": {\"data\": [{\"scopeId\": {\"Comparison\": {\"ComparisonKind\": 0, \"Left\": {\"Column\": {\"Expression\": {\"SourceRef\": {\"Entity\": \"dim_aluno\"}}, \"Property\": \"sexo\"}}, \"Right\": {\"Literal\": {\"Value\": \"'Não informado'\"}}}}}]}}, {\"properties\": {\"fill\": {\"solid\": {\"color\": {\"expr\": {\"Literal\": {\"Value\": \"'#7A8FA6'\"}}}}}}, \"selector\": {\"data\": [{\"scopeId\": {\"Comparison\": {\"ComparisonKind\": 0, \"Left\": {\"Column\": {\"Expression\": {\"SourceRef\": {\"Entity\": \"dim_aluno\"}}, \"Property\": \"sexo\"}}, \"Right\": {\"Literal\": {\"Value\": \"'X (não especificado)'\"}}}}}]}}], \"labels\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"labelStyle\": {\"expr\": {\"Literal\": {\"Value\": \"'Percent of total'\"}}}, \"labelPrecision\": {\"expr\": {\"Literal\": {\"Value\": \"2L\"}}}}}], \"legend\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"position\": {\"expr\": {\"Literal\": {\"Value\": \"'RightCenter'\"}}}}}]}, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Distribuição dos estudantes por sexo'\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 856,
+          "y": 190,
+          "z": 7,
+          "width": 400,
+          "height": 222,
+          "config": "{\"name\": \"7f477058a81d4e33ba54\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 856, \"y\": 190, \"z\": 7, \"width\": 400, \"height\": 222, \"tabOrder\": 7}}], \"singleVisual\": {\"visualType\": \"clusteredBarChart\", \"projections\": {\"Category\": [{\"queryRef\": \"dim_aluno.cidade\", \"active\": true}], \"Y\": [{\"queryRef\": \"dim_aluno.Qtd Estudantes\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"t\", \"Entity\": \"dim_aluno\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"cidade\"}, \"Name\": \"dim_aluno.cidade\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"Qtd Estudantes\"}, \"Name\": \"dim_aluno.Qtd Estudantes\"}], \"OrderBy\": [{\"Direction\": 2, \"Expression\": {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"Qtd Estudantes\"}}}]}, \"drillFilterOtherVisuals\": true, \"objects\": {\"categoryAxis\": [{\"properties\": {\"showAxisTitle\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}], \"valueAxis\": [{\"properties\": {\"showAxisTitle\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}, \"labelDisplayUnits\": {\"expr\": {\"Literal\": {\"Value\": \"1000D\"}}}, \"end\": {\"expr\": {\"Literal\": {\"Value\": \"33000D\"}}}}}], \"labels\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"labelDisplayUnits\": {\"expr\": {\"Literal\": {\"Value\": \"1D\"}}}, \"labelPrecision\": {\"expr\": {\"Literal\": {\"Value\": \"0L\"}}}, \"labelPosition\": {\"expr\": {\"Literal\": {\"Value\": \"'OutsideEnd'\"}}}}}], \"legend\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}]}, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'12 cidades com mais estudantes'\"}}}}}]}}}",
+          "filters": "[{\"name\": \"d0cdd82ff05a442c\", \"expression\": {\"Column\": {\"Expression\": {\"SourceRef\": {\"Entity\": \"dim_aluno\"}}, \"Property\": \"top12_cidade\"}}, \"filter\": {\"Version\": 2, \"From\": [{\"Name\": \"f\", \"Entity\": \"dim_aluno\", \"Type\": 0}], \"Where\": [{\"Condition\": {\"Comparison\": {\"ComparisonKind\": 0, \"Left\": {\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"f\"}}, \"Property\": \"top12_cidade\"}}, \"Right\": {\"Literal\": {\"Value\": \"true\"}}}}}]}, \"type\": \"Categorical\", \"howCreated\": 1}]"
+        },
+        {
+          "x": 24,
+          "y": 428,
+          "z": 8,
+          "width": 400,
+          "height": 218,
+          "config": "{\"name\": \"85f3755bc55c4615a268\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 24, \"y\": 428, \"z\": 8, \"width\": 400, \"height\": 218, \"tabOrder\": 8}}], \"singleVisual\": {\"visualType\": \"clusteredColumnChart\", \"projections\": {\"Category\": [{\"queryRef\": \"dim_aluno.faixa_renda_detalhada\", \"active\": true}], \"Y\": [{\"queryRef\": \"dim_aluno.Qtd Estudantes\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"t\", \"Entity\": \"dim_aluno\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"faixa_renda_detalhada\"}, \"Name\": \"dim_aluno.faixa_renda_detalhada\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"Qtd Estudantes\"}, \"Name\": \"dim_aluno.Qtd Estudantes\"}], \"OrderBy\": [{\"Direction\": 1, \"Expression\": {\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"faixa_renda_detalhada\"}}}]}, \"drillFilterOtherVisuals\": true, \"objects\": {\"categoryAxis\": [{\"properties\": {\"showAxisTitle\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"titleText\": {\"expr\": {\"Literal\": {\"Value\": \"'Faixa de renda'\"}}}}}], \"valueAxis\": [{\"properties\": {\"showAxisTitle\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"labelDisplayUnits\": {\"expr\": {\"Literal\": {\"Value\": \"1000D\"}}}, \"titleText\": {\"expr\": {\"Literal\": {\"Value\": \"'Quantidade de estudantes'\"}}}, \"end\": {\"expr\": {\"Literal\": {\"Value\": \"480000D\"}}}}}], \"labels\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"labelDisplayUnits\": {\"expr\": {\"Literal\": {\"Value\": \"1D\"}}}, \"labelPrecision\": {\"expr\": {\"Literal\": {\"Value\": \"0L\"}}}, \"labelPosition\": {\"expr\": {\"Literal\": {\"Value\": \"'OutsideEnd'\"}}}}}], \"legend\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}]}, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Distribuição da renda estimada'\"}}}}}]}}}",
+          "filters": "[{\"name\": \"2cb365d7e12c4684\", \"expression\": {\"Column\": {\"Expression\": {\"SourceRef\": {\"Entity\": \"dim_aluno\"}}, \"Property\": \"flag_renda_ausente\"}}, \"filter\": {\"Version\": 2, \"From\": [{\"Name\": \"f\", \"Entity\": \"dim_aluno\", \"Type\": 0}], \"Where\": [{\"Condition\": {\"Comparison\": {\"ComparisonKind\": 0, \"Left\": {\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"f\"}}, \"Property\": \"flag_renda_ausente\"}}, \"Right\": {\"Literal\": {\"Value\": \"false\"}}}}}]}, \"type\": \"Categorical\", \"howCreated\": 1}]"
+        },
+        {
+          "x": 440,
+          "y": 428,
+          "z": 9,
+          "width": 400,
+          "height": 218,
+          "config": "{\"name\": \"98c26a8208cf4a1488ae\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 440, \"y\": 428, \"z\": 9, \"width\": 400, \"height\": 218, \"tabOrder\": 9}}], \"singleVisual\": {\"visualType\": \"clusteredBarChart\", \"projections\": {\"Category\": [{\"queryRef\": \"resumo_cobertura_fontes.Fonte\", \"active\": true}], \"Y\": [{\"queryRef\": \"resumo_cobertura_fontes.Qtd Estudantes Fonte\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"t\", \"Entity\": \"resumo_cobertura_fontes\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"Fonte\"}, \"Name\": \"resumo_cobertura_fontes.Fonte\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"Qtd Estudantes Fonte\"}, \"Name\": \"resumo_cobertura_fontes.Qtd Estudantes Fonte\"}], \"OrderBy\": [{\"Direction\": 1, \"Expression\": {\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"Fonte\"}}}]}, \"drillFilterOtherVisuals\": true, \"objects\": {\"categoryAxis\": [{\"properties\": {\"showAxisTitle\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}], \"valueAxis\": [{\"properties\": {\"showAxisTitle\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"labelDisplayUnits\": {\"expr\": {\"Literal\": {\"Value\": \"1000D\"}}}, \"titleText\": {\"expr\": {\"Literal\": {\"Value\": \"'Quantidade de estudantes'\"}}}, \"end\": {\"expr\": {\"Literal\": {\"Value\": \"480000D\"}}}}}], \"labels\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"labelDisplayUnits\": {\"expr\": {\"Literal\": {\"Value\": \"1D\"}}}, \"labelPrecision\": {\"expr\": {\"Literal\": {\"Value\": \"0L\"}}}, \"labelPosition\": {\"expr\": {\"Literal\": {\"Value\": \"'OutsideEnd'\"}}}}}], \"legend\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}]}, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Cobertura das fontes de dados'\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 856,
+          "y": 428,
+          "z": 10,
+          "width": 400,
+          "height": 218,
+          "config": "{\"name\": \"58b5f5f627d149bcaa34\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 856, \"y\": 428, \"z\": 10, \"width\": 400, \"height\": 218, \"tabOrder\": 10}}], \"singleVisual\": {\"visualType\": \"clusteredColumnChart\", \"projections\": {\"Category\": [{\"queryRef\": \"dim_aluno.qtd_fontes\", \"active\": true}], \"Y\": [{\"queryRef\": \"dim_aluno.Qtd Estudantes\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"t\", \"Entity\": \"dim_aluno\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"qtd_fontes\"}, \"Name\": \"dim_aluno.qtd_fontes\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"Qtd Estudantes\"}, \"Name\": \"dim_aluno.Qtd Estudantes\"}], \"OrderBy\": [{\"Direction\": 1, \"Expression\": {\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"qtd_fontes\"}}}]}, \"drillFilterOtherVisuals\": true, \"objects\": {\"categoryAxis\": [{\"properties\": {\"showAxisTitle\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"titleText\": {\"expr\": {\"Literal\": {\"Value\": \"'Quantidade de fontes'\"}}}, \"axisType\": {\"expr\": {\"Literal\": {\"Value\": \"'Categorical'\"}}}}}], \"valueAxis\": [{\"properties\": {\"showAxisTitle\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}, \"labelDisplayUnits\": {\"expr\": {\"Literal\": {\"Value\": \"1000D\"}}}, \"end\": {\"expr\": {\"Literal\": {\"Value\": \"600000D\"}}}}}], \"labels\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"labelDisplayUnits\": {\"expr\": {\"Literal\": {\"Value\": \"1D\"}}}, \"labelPrecision\": {\"expr\": {\"Literal\": {\"Value\": \"0L\"}}}, \"labelPosition\": {\"expr\": {\"Literal\": {\"Value\": \"'OutsideEnd'\"}}}}}], \"legend\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}]}, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Número de fontes por aluno'\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 24,
+          "y": 650,
+          "z": 11,
+          "width": 400,
+          "height": 52,
+          "config": "{\"name\": \"795d00027b9846dbb3a3\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 24, \"y\": 650, \"z\": 11, \"width\": 400, \"height\": 52, \"tabOrder\": 11}}], \"singleVisual\": {\"visualType\": \"textbox\", \"drillFilterOtherVisuals\": true, \"objects\": {\"general\": [{\"properties\": {\"paragraphs\": [{\"textRuns\": [{\"value\": \"Insight: \", \"textStyle\": {\"fontWeight\": \"bold\", \"fontSize\": \"8pt\", \"color\": \"#0F304D\", \"fontFamily\": \"Segoe UI Semibold\"}}, {\"value\": \"991.900 estudantes possuem renda informada (99,19%). Os demais 8.100 (0,81%) não possuem essa informação.\", \"textStyle\": {\"fontSize\": \"8pt\", \"color\": \"#374151\", \"fontFamily\": \"Segoe UI\"}}]}]}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 440,
+          "y": 650,
+          "z": 12,
+          "width": 400,
+          "height": 52,
+          "config": "{\"name\": \"076eb3fd5cee42099fa7\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 440, \"y\": 650, \"z\": 12, \"width\": 400, \"height\": 52, \"tabOrder\": 12}}], \"singleVisual\": {\"visualType\": \"textbox\", \"drillFilterOtherVisuals\": true, \"objects\": {\"general\": [{\"properties\": {\"paragraphs\": [{\"textRuns\": [{\"value\": \"Insight: \", \"textStyle\": {\"fontWeight\": \"bold\", \"fontSize\": \"8pt\", \"color\": \"#0F304D\", \"fontFamily\": \"Segoe UI Semibold\"}}, {\"value\": \"Ausência de registros não significa ausência de atividade.\", \"textStyle\": {\"fontSize\": \"8pt\", \"color\": \"#374151\", \"fontFamily\": \"Segoe UI\"}}]}]}}]}}}",
+          "filters": "[]"
+        }
+      ],
+      "config": "{}"
+    },
+    {
+      "name": "ReportSection2",
+      "displayName": "2. Desempenho e Financeiro",
+      "displayOption": 1,
+      "width": 1280,
+      "height": 720,
+      "ordinal": 1,
+      "visualContainers": [
+        {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "width": 1280,
+          "height": 82,
+          "config": "{\"name\": \"25032513f6244d53806f\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 0, \"y\": 0, \"z\": 0, \"width\": 1280, \"height\": 82, \"tabOrder\": 0}}], \"singleVisual\": {\"visualType\": \"textbox\", \"drillFilterOtherVisuals\": true, \"objects\": {\"general\": [{\"properties\": {\"paragraphs\": [{\"horizontalTextAlignment\": \"center\", \"textRuns\": [{\"value\": \"DESEMPENHO ACADÊMICO E FINANCEIRO\", \"textStyle\": {\"fontWeight\": \"bold\", \"fontSize\": \"22pt\", \"color\": \"#FFFFFF\", \"fontFamily\": \"Segoe UI Bold\"}}]}, {\"horizontalTextAlignment\": \"center\", \"textRuns\": [{\"value\": \"Análise das matrículas, avaliações e situações financeiras\", \"textStyle\": {\"fontSize\": \"10pt\", \"color\": \"#E2E8F0\", \"fontFamily\": \"Segoe UI\"}}]}]}}]}, \"vcObjects\": {\"background\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"color\": {\"solid\": {\"color\": {\"expr\": {\"Literal\": {\"Value\": \"'#0F304D'\"}}}}}, \"transparency\": {\"expr\": {\"Literal\": {\"Value\": \"0D\"}}}}}], \"border\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 24,
+          "y": 96,
+          "z": 1,
+          "width": 296,
+          "height": 78,
+          "config": "{\"name\": \"3b4783f107904f7da543\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 24, \"y\": 96, \"z\": 1, \"width\": 296, \"height\": 78, \"tabOrder\": 1}}], \"singleVisual\": {\"visualType\": \"card\", \"projections\": {\"Values\": [{\"queryRef\": \"dim_aluno.Estudantes com Matrículas\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"k\", \"Entity\": \"dim_aluno\", \"Type\": 0}], \"Select\": [{\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"k\"}}, \"Property\": \"Estudantes com Matrículas\"}, \"Name\": \"dim_aluno.Estudantes com Matrículas\"}]}, \"drillFilterOtherVisuals\": true, \"objects\": {\"labels\": [{\"properties\": {\"labelDisplayUnits\": {\"expr\": {\"Literal\": {\"Value\": \"1D\"}}}}}], \"categoryLabels\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}]}, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Estudantes com Matrículas'\"}}}, \"alignment\": {\"expr\": {\"Literal\": {\"Value\": \"'center'\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 336,
+          "y": 96,
+          "z": 2,
+          "width": 296,
+          "height": 78,
+          "config": "{\"name\": \"bde9e83277bd4818be11\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 336, \"y\": 96, \"z\": 2, \"width\": 296, \"height\": 78, \"tabOrder\": 2}}], \"singleVisual\": {\"visualType\": \"card\", \"projections\": {\"Values\": [{\"queryRef\": \"dim_aluno.Estudantes com Avaliações\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"k\", \"Entity\": \"dim_aluno\", \"Type\": 0}], \"Select\": [{\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"k\"}}, \"Property\": \"Estudantes com Avaliações\"}, \"Name\": \"dim_aluno.Estudantes com Avaliações\"}]}, \"drillFilterOtherVisuals\": true, \"objects\": {\"labels\": [{\"properties\": {\"labelDisplayUnits\": {\"expr\": {\"Literal\": {\"Value\": \"1D\"}}}}}], \"categoryLabels\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}]}, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Estudantes com Avaliações'\"}}}, \"alignment\": {\"expr\": {\"Literal\": {\"Value\": \"'center'\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 648,
+          "y": 96,
+          "z": 3,
+          "width": 296,
+          "height": 78,
+          "config": "{\"name\": \"a4a8e79e62af4ab78c39\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 648, \"y\": 96, \"z\": 3, \"width\": 296, \"height\": 78, \"tabOrder\": 3}}], \"singleVisual\": {\"visualType\": \"card\", \"projections\": {\"Values\": [{\"queryRef\": \"fato_financeiro.Registros Financeiros Vinculados\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"k\", \"Entity\": \"fato_financeiro\", \"Type\": 0}], \"Select\": [{\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"k\"}}, \"Property\": \"Registros Financeiros Vinculados\"}, \"Name\": \"fato_financeiro.Registros Financeiros Vinculados\"}]}, \"drillFilterOtherVisuals\": true, \"objects\": {\"labels\": [{\"properties\": {\"labelDisplayUnits\": {\"expr\": {\"Literal\": {\"Value\": \"1D\"}}}}}], \"categoryLabels\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}]}, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Registros Financeiros Vinculados'\"}}}, \"alignment\": {\"expr\": {\"Literal\": {\"Value\": \"'center'\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 960,
+          "y": 96,
+          "z": 4,
+          "width": 296,
+          "height": 78,
+          "config": "{\"name\": \"68763696c36c42638f0a\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 960, \"y\": 96, \"z\": 4, \"width\": 296, \"height\": 78, \"tabOrder\": 4}}], \"singleVisual\": {\"visualType\": \"card\", \"projections\": {\"Values\": [{\"queryRef\": \"dim_aluno.Estudantes com Dados Financeiros\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"k\", \"Entity\": \"dim_aluno\", \"Type\": 0}], \"Select\": [{\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"k\"}}, \"Property\": \"Estudantes com Dados Financeiros\"}, \"Name\": \"dim_aluno.Estudantes com Dados Financeiros\"}]}, \"drillFilterOtherVisuals\": true, \"objects\": {\"labels\": [{\"properties\": {\"labelDisplayUnits\": {\"expr\": {\"Literal\": {\"Value\": \"1D\"}}}}}], \"categoryLabels\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}]}, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Estudantes com Dados Financeiros'\"}}}, \"alignment\": {\"expr\": {\"Literal\": {\"Value\": \"'center'\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 24,
+          "y": 190,
+          "z": 5,
+          "width": 400,
+          "height": 198,
+          "config": "{\"name\": \"d2a6c572656f447ea9ca\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 24, \"y\": 190, \"z\": 5, \"width\": 400, \"height\": 198, \"tabOrder\": 5}}], \"singleVisual\": {\"visualType\": \"clusteredColumnChart\", \"projections\": {\"Category\": [{\"queryRef\": \"fato_matriculas.status\", \"active\": true}], \"Y\": [{\"queryRef\": \"fato_matriculas.Qtd Matrículas\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"t\", \"Entity\": \"fato_matriculas\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"status\"}, \"Name\": \"fato_matriculas.status\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"Qtd Matrículas\"}, \"Name\": \"fato_matriculas.Qtd Matrículas\"}], \"OrderBy\": [{\"Direction\": 1, \"Expression\": {\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"status\"}}}]}, \"drillFilterOtherVisuals\": true, \"objects\": {\"categoryAxis\": [{\"properties\": {\"showAxisTitle\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"titleText\": {\"expr\": {\"Literal\": {\"Value\": \"'Situação da matrícula'\"}}}}}], \"valueAxis\": [{\"properties\": {\"showAxisTitle\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"labelDisplayUnits\": {\"expr\": {\"Literal\": {\"Value\": \"1000D\"}}}, \"titleText\": {\"expr\": {\"Literal\": {\"Value\": \"'Quantidade de matrículas'\"}}}, \"end\": {\"expr\": {\"Literal\": {\"Value\": \"580000D\"}}}}}], \"labels\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"labelDisplayUnits\": {\"expr\": {\"Literal\": {\"Value\": \"1D\"}}}, \"labelPrecision\": {\"expr\": {\"Literal\": {\"Value\": \"0L\"}}}, \"labelPosition\": {\"expr\": {\"Literal\": {\"Value\": \"'OutsideEnd'\"}}}}}], \"legend\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}]}, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Situação das matrículas'\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 440,
+          "y": 190,
+          "z": 6,
+          "width": 400,
+          "height": 198,
+          "config": "{\"name\": \"c2ece530737d4d7aafde\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 440, \"y\": 190, \"z\": 6, \"width\": 400, \"height\": 198, \"tabOrder\": 6}}], \"singleVisual\": {\"visualType\": \"clusteredColumnChart\", \"projections\": {\"Category\": [{\"queryRef\": \"dim_aluno.faixa_matriculas\", \"active\": true}], \"Y\": [{\"queryRef\": \"dim_aluno.Qtd Estudantes\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"t\", \"Entity\": \"dim_aluno\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"faixa_matriculas\"}, \"Name\": \"dim_aluno.faixa_matriculas\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"Qtd Estudantes\"}, \"Name\": \"dim_aluno.Qtd Estudantes\"}], \"OrderBy\": [{\"Direction\": 1, \"Expression\": {\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"faixa_matriculas\"}}}]}, \"drillFilterOtherVisuals\": true, \"objects\": {\"categoryAxis\": [{\"properties\": {\"showAxisTitle\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"titleText\": {\"expr\": {\"Literal\": {\"Value\": \"'Quantidade de matrículas'\"}}}}}], \"valueAxis\": [{\"properties\": {\"showAxisTitle\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"labelDisplayUnits\": {\"expr\": {\"Literal\": {\"Value\": \"1000D\"}}}, \"titleText\": {\"expr\": {\"Literal\": {\"Value\": \"'Quantidade de estudantes'\"}}}, \"end\": {\"expr\": {\"Literal\": {\"Value\": \"750000D\"}}}}}], \"labels\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"labelDisplayUnits\": {\"expr\": {\"Literal\": {\"Value\": \"1D\"}}}, \"labelPrecision\": {\"expr\": {\"Literal\": {\"Value\": \"0L\"}}}, \"labelPosition\": {\"expr\": {\"Literal\": {\"Value\": \"'OutsideEnd'\"}}}}}], \"legend\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}]}, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Quantidade de matrículas por aluno'\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 856,
+          "y": 190,
+          "z": 7,
+          "width": 400,
+          "height": 198,
+          "config": "{\"name\": \"43975e52ef2f47ad951b\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 856, \"y\": 190, \"z\": 7, \"width\": 400, \"height\": 198, \"tabOrder\": 7}}], \"singleVisual\": {\"visualType\": \"clusteredColumnChart\", \"projections\": {\"Category\": [{\"queryRef\": \"dim_aluno.faixa_nota\", \"active\": true}], \"Y\": [{\"queryRef\": \"dim_aluno.Qtd Estudantes\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"t\", \"Entity\": \"dim_aluno\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"faixa_nota\"}, \"Name\": \"dim_aluno.faixa_nota\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"Qtd Estudantes\"}, \"Name\": \"dim_aluno.Qtd Estudantes\"}], \"OrderBy\": [{\"Direction\": 1, \"Expression\": {\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"faixa_nota\"}}}]}, \"drillFilterOtherVisuals\": true, \"objects\": {\"categoryAxis\": [{\"properties\": {\"showAxisTitle\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"titleText\": {\"expr\": {\"Literal\": {\"Value\": \"'Faixa de notas'\"}}}}}], \"valueAxis\": [{\"properties\": {\"showAxisTitle\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"labelDisplayUnits\": {\"expr\": {\"Literal\": {\"Value\": \"1000D\"}}}, \"titleText\": {\"expr\": {\"Literal\": {\"Value\": \"'Quantidade de estudantes'\"}}}, \"end\": {\"expr\": {\"Literal\": {\"Value\": \"58000D\"}}}}}], \"labels\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"labelDisplayUnits\": {\"expr\": {\"Literal\": {\"Value\": \"1D\"}}}, \"labelPrecision\": {\"expr\": {\"Literal\": {\"Value\": \"0L\"}}}, \"labelPosition\": {\"expr\": {\"Literal\": {\"Value\": \"'OutsideEnd'\"}}}}}], \"legend\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}]}, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Distribuição da média das notas'\"}}}}}]}}}",
+          "filters": "[{\"name\": \"a24fea0c4e6f4b73\", \"expression\": {\"Column\": {\"Expression\": {\"SourceRef\": {\"Entity\": \"dim_aluno\"}}, \"Property\": \"tem_nota\"}}, \"filter\": {\"Version\": 2, \"From\": [{\"Name\": \"f\", \"Entity\": \"dim_aluno\", \"Type\": 0}], \"Where\": [{\"Condition\": {\"Comparison\": {\"ComparisonKind\": 0, \"Left\": {\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"f\"}}, \"Property\": \"tem_nota\"}}, \"Right\": {\"Literal\": {\"Value\": \"true\"}}}}}]}, \"type\": \"Categorical\", \"howCreated\": 1}]"
+        },
+        {
+          "x": 24,
+          "y": 392,
+          "z": 8,
+          "width": 400,
+          "height": 42,
+          "config": "{\"name\": \"f594481710004dcf9239\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 24, \"y\": 392, \"z\": 8, \"width\": 400, \"height\": 42, \"tabOrder\": 8}}], \"singleVisual\": {\"visualType\": \"textbox\", \"drillFilterOtherVisuals\": true, \"objects\": {\"general\": [{\"properties\": {\"paragraphs\": [{\"textRuns\": [{\"value\": \"Insight: \", \"textStyle\": {\"fontWeight\": \"bold\", \"fontSize\": \"8pt\", \"color\": \"#0F304D\", \"fontFamily\": \"Segoe UI Semibold\"}}, {\"value\": \"O gráfico contabiliza matrículas (700 mil), e não estudantes distintos, pois um estudante pode possuir mais de uma matrícula.\", \"textStyle\": {\"fontSize\": \"8pt\", \"color\": \"#374151\", \"fontFamily\": \"Segoe UI\"}}]}]}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 856,
+          "y": 392,
+          "z": 9,
+          "width": 400,
+          "height": 42,
+          "config": "{\"name\": \"0c3c9f5fbc7b4526ad9a\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 856, \"y\": 392, \"z\": 9, \"width\": 400, \"height\": 42, \"tabOrder\": 9}}], \"singleVisual\": {\"visualType\": \"textbox\", \"drillFilterOtherVisuals\": true, \"objects\": {\"general\": [{\"properties\": {\"paragraphs\": [{\"textRuns\": [{\"value\": \"Insight: \", \"textStyle\": {\"fontWeight\": \"bold\", \"fontSize\": \"8pt\", \"color\": \"#0F304D\", \"fontFamily\": \"Segoe UI Semibold\"}}, {\"value\": \"A concentração de notas nos extremos (0–1 e 9–10) foi influenciada pelo tratamento das avaliações fora do intervalo válido.\", \"textStyle\": {\"fontSize\": \"8pt\", \"color\": \"#374151\", \"fontFamily\": \"Segoe UI\"}}]}]}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 24,
+          "y": 442,
+          "z": 10,
+          "width": 400,
+          "height": 198,
+          "config": "{\"name\": \"92fdd5263ccc41c289da\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 24, \"y\": 442, \"z\": 10, \"width\": 400, \"height\": 198, \"tabOrder\": 10}}], \"singleVisual\": {\"visualType\": \"clusteredColumnChart\", \"projections\": {\"Category\": [{\"queryRef\": \"dim_aluno.faixa_avaliacoes\", \"active\": true}], \"Y\": [{\"queryRef\": \"dim_aluno.Qtd Estudantes\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"t\", \"Entity\": \"dim_aluno\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"faixa_avaliacoes\"}, \"Name\": \"dim_aluno.faixa_avaliacoes\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"Qtd Estudantes\"}, \"Name\": \"dim_aluno.Qtd Estudantes\"}], \"OrderBy\": [{\"Direction\": 1, \"Expression\": {\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"faixa_avaliacoes\"}}}]}, \"drillFilterOtherVisuals\": true, \"objects\": {\"categoryAxis\": [{\"properties\": {\"showAxisTitle\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"titleText\": {\"expr\": {\"Literal\": {\"Value\": \"'Quantidade de avaliações'\"}}}}}], \"valueAxis\": [{\"properties\": {\"showAxisTitle\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"labelDisplayUnits\": {\"expr\": {\"Literal\": {\"Value\": \"1000D\"}}}, \"titleText\": {\"expr\": {\"Literal\": {\"Value\": \"'Quantidade de estudantes'\"}}}, \"end\": {\"expr\": {\"Literal\": {\"Value\": \"780000D\"}}}}}], \"labels\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"labelDisplayUnits\": {\"expr\": {\"Literal\": {\"Value\": \"1D\"}}}, \"labelPrecision\": {\"expr\": {\"Literal\": {\"Value\": \"0L\"}}}, \"labelPosition\": {\"expr\": {\"Literal\": {\"Value\": \"'OutsideEnd'\"}}}}}], \"legend\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}]}, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Quantidade de avaliações por aluno'\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 440,
+          "y": 442,
+          "z": 11,
+          "width": 400,
+          "height": 198,
+          "config": "{\"name\": \"dee24e1280754a9684c4\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 440, \"y\": 442, \"z\": 11, \"width\": 400, \"height\": 198, \"tabOrder\": 11}}], \"singleVisual\": {\"visualType\": \"clusteredBarChart\", \"projections\": {\"Category\": [{\"queryRef\": \"fato_financeiro.situacao_financeira_raw\", \"active\": true}], \"Y\": [{\"queryRef\": \"fato_financeiro.Qtd Registros Financeiros\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"t\", \"Entity\": \"fato_financeiro\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"situacao_financeira_raw\"}, \"Name\": \"fato_financeiro.situacao_financeira_raw\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"Qtd Registros Financeiros\"}, \"Name\": \"fato_financeiro.Qtd Registros Financeiros\"}], \"OrderBy\": [{\"Direction\": 1, \"Expression\": {\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"situacao_financeira_raw\"}}}]}, \"drillFilterOtherVisuals\": true, \"objects\": {\"categoryAxis\": [{\"properties\": {\"showAxisTitle\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}], \"valueAxis\": [{\"properties\": {\"showAxisTitle\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"labelDisplayUnits\": {\"expr\": {\"Literal\": {\"Value\": \"1000D\"}}}, \"titleText\": {\"expr\": {\"Literal\": {\"Value\": \"'Quantidade de registros financeiros'\"}}}, \"end\": {\"expr\": {\"Literal\": {\"Value\": \"330000D\"}}}}}], \"labels\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"labelDisplayUnits\": {\"expr\": {\"Literal\": {\"Value\": \"1D\"}}}, \"labelPrecision\": {\"expr\": {\"Literal\": {\"Value\": \"0L\"}}}, \"labelPosition\": {\"expr\": {\"Literal\": {\"Value\": \"'OutsideEnd'\"}}}}}], \"legend\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}]}, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Distribuição das situações financeiras'\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 856,
+          "y": 442,
+          "z": 12,
+          "width": 400,
+          "height": 198,
+          "config": "{\"name\": \"d0af41d1838e4855aa84\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 856, \"y\": 442, \"z\": 12, \"width\": 400, \"height\": 198, \"tabOrder\": 12}}], \"singleVisual\": {\"visualType\": \"clusteredBarChart\", \"projections\": {\"Category\": [{\"queryRef\": \"resumo_inconsistencias_fin.Inconsistência\", \"active\": true}], \"Y\": [{\"queryRef\": \"resumo_inconsistencias_fin.Qtd Inconsistências\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"t\", \"Entity\": \"resumo_inconsistencias_fin\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"Inconsistência\"}, \"Name\": \"resumo_inconsistencias_fin.Inconsistência\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"Qtd Inconsistências\"}, \"Name\": \"resumo_inconsistencias_fin.Qtd Inconsistências\"}], \"OrderBy\": [{\"Direction\": 1, \"Expression\": {\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"Inconsistência\"}}}]}, \"drillFilterOtherVisuals\": true, \"objects\": {\"categoryAxis\": [{\"properties\": {\"showAxisTitle\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}], \"valueAxis\": [{\"properties\": {\"showAxisTitle\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"labelDisplayUnits\": {\"expr\": {\"Literal\": {\"Value\": \"1000D\"}}}, \"titleText\": {\"expr\": {\"Literal\": {\"Value\": \"'Quantidade de inconsistências'\"}}}, \"end\": {\"expr\": {\"Literal\": {\"Value\": \"13000D\"}}}}}], \"labels\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"labelDisplayUnits\": {\"expr\": {\"Literal\": {\"Value\": \"1D\"}}}, \"labelPrecision\": {\"expr\": {\"Literal\": {\"Value\": \"0L\"}}}, \"labelPosition\": {\"expr\": {\"Literal\": {\"Value\": \"'OutsideEnd'\"}}}}}], \"legend\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}]}, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Inconsistências financeiras identificadas'\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 24,
+          "y": 644,
+          "z": 13,
+          "width": 400,
+          "height": 58,
+          "config": "{\"name\": \"0c9bcb3a7a164a058f19\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 24, \"y\": 644, \"z\": 13, \"width\": 400, \"height\": 58, \"tabOrder\": 13}}], \"singleVisual\": {\"visualType\": \"textbox\", \"drillFilterOtherVisuals\": true, \"objects\": {\"general\": [{\"properties\": {\"paragraphs\": [{\"textRuns\": [{\"value\": \"Insight: \", \"textStyle\": {\"fontWeight\": \"bold\", \"fontSize\": \"8pt\", \"color\": \"#0F304D\", \"fontFamily\": \"Segoe UI Semibold\"}}, {\"value\": \"A ausência de avaliações registradas não significa necessariamente que o estudante não tenha realizado atividades avaliativas.\", \"textStyle\": {\"fontSize\": \"8pt\", \"color\": \"#374151\", \"fontFamily\": \"Segoe UI\"}}]}]}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 440,
+          "y": 644,
+          "z": 14,
+          "width": 400,
+          "height": 58,
+          "config": "{\"name\": \"788823735e344f2ea5dc\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 440, \"y\": 644, \"z\": 14, \"width\": 400, \"height\": 58, \"tabOrder\": 14}}], \"singleVisual\": {\"visualType\": \"textbox\", \"drillFilterOtherVisuals\": true, \"objects\": {\"general\": [{\"properties\": {\"paragraphs\": [{\"textRuns\": [{\"value\": \"Insight: \", \"textStyle\": {\"fontWeight\": \"bold\", \"fontSize\": \"8pt\", \"color\": \"#0F304D\", \"fontFamily\": \"Segoe UI Semibold\"}}, {\"value\": \"Os registros financeiros apresentam distribuição equilibrada, com leve predominância dos pendentes.\", \"textStyle\": {\"fontSize\": \"8pt\", \"color\": \"#374151\", \"fontFamily\": \"Segoe UI\"}}]}]}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 856,
+          "y": 644,
+          "z": 15,
+          "width": 400,
+          "height": 58,
+          "config": "{\"name\": \"22e2aabb6a0c44029b9d\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 856, \"y\": 644, \"z\": 15, \"width\": 400, \"height\": 58, \"tabOrder\": 15}}], \"singleVisual\": {\"visualType\": \"textbox\", \"drillFilterOtherVisuals\": true, \"objects\": {\"general\": [{\"properties\": {\"paragraphs\": [{\"textRuns\": [{\"value\": \"Insight: \", \"textStyle\": {\"fontWeight\": \"bold\", \"fontSize\": \"8pt\", \"color\": \"#0F304D\", \"fontFamily\": \"Segoe UI Semibold\"}}, {\"value\": \"As inconsistências identificadas durante o tratamento exigiram validação antes das análises financeiras.\", \"textStyle\": {\"fontSize\": \"8pt\", \"color\": \"#374151\", \"fontFamily\": \"Segoe UI\"}}]}]}}]}}}",
+          "filters": "[]"
+        }
+      ],
+      "config": "{}"
+    },
+    {
+      "name": "ReportSection3",
+      "displayName": "3. Atividade Digital e Qualidade",
+      "displayOption": 1,
+      "width": 1280,
+      "height": 720,
+      "ordinal": 2,
+      "visualContainers": [
+        {
+          "x": 0,
+          "y": 0,
+          "z": 0,
+          "width": 1280,
+          "height": 82,
+          "config": "{\"name\": \"8d0a0c95ad644ee2a82e\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 0, \"y\": 0, \"z\": 0, \"width\": 1280, \"height\": 82, \"tabOrder\": 0}}], \"singleVisual\": {\"visualType\": \"textbox\", \"drillFilterOtherVisuals\": true, \"objects\": {\"general\": [{\"properties\": {\"paragraphs\": [{\"horizontalTextAlignment\": \"center\", \"textRuns\": [{\"value\": \"ATIVIDADE DIGITAL E QUALIDADE DOS DADOS\", \"textStyle\": {\"fontWeight\": \"bold\", \"fontSize\": \"22pt\", \"color\": \"#FFFFFF\", \"fontFamily\": \"Segoe UI Bold\"}}]}, {\"horizontalTextAlignment\": \"center\", \"textRuns\": [{\"value\": \"Análise da cobertura digital e da disponibilidade das informações\", \"textStyle\": {\"fontSize\": \"10pt\", \"color\": \"#E2E8F0\", \"fontFamily\": \"Segoe UI\"}}]}]}}]}, \"vcObjects\": {\"background\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"color\": {\"solid\": {\"color\": {\"expr\": {\"Literal\": {\"Value\": \"'#0F304D'\"}}}}}, \"transparency\": {\"expr\": {\"Literal\": {\"Value\": \"0D\"}}}}}], \"border\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 24,
+          "y": 96,
+          "z": 1,
+          "width": 296,
+          "height": 78,
+          "config": "{\"name\": \"00c1e1b08e10440d8b24\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 24, \"y\": 96, \"z\": 1, \"width\": 296, \"height\": 78, \"tabOrder\": 1}}], \"singleVisual\": {\"visualType\": \"card\", \"projections\": {\"Values\": [{\"queryRef\": \"dim_aluno.Cobertura de Acessos\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"k\", \"Entity\": \"dim_aluno\", \"Type\": 0}], \"Select\": [{\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"k\"}}, \"Property\": \"Cobertura de Acessos\"}, \"Name\": \"dim_aluno.Cobertura de Acessos\"}]}, \"drillFilterOtherVisuals\": true, \"objects\": {\"labels\": [{\"properties\": {\"labelDisplayUnits\": {\"expr\": {\"Literal\": {\"Value\": \"1D\"}}}}}], \"categoryLabels\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}]}, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Cobertura de Acessos'\"}}}, \"alignment\": {\"expr\": {\"Literal\": {\"Value\": \"'center'\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 336,
+          "y": 96,
+          "z": 2,
+          "width": 296,
+          "height": 78,
+          "config": "{\"name\": \"9e49e1cce62f4de7b873\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 336, \"y\": 96, \"z\": 2, \"width\": 296, \"height\": 78, \"tabOrder\": 2}}], \"singleVisual\": {\"visualType\": \"card\", \"projections\": {\"Values\": [{\"queryRef\": \"dim_aluno.Cobertura de Redes Sociais\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"k\", \"Entity\": \"dim_aluno\", \"Type\": 0}], \"Select\": [{\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"k\"}}, \"Property\": \"Cobertura de Redes Sociais\"}, \"Name\": \"dim_aluno.Cobertura de Redes Sociais\"}]}, \"drillFilterOtherVisuals\": true, \"objects\": {\"labels\": [{\"properties\": {\"labelDisplayUnits\": {\"expr\": {\"Literal\": {\"Value\": \"1D\"}}}}}], \"categoryLabels\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}]}, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Cobertura de Redes Sociais'\"}}}, \"alignment\": {\"expr\": {\"Literal\": {\"Value\": \"'center'\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 648,
+          "y": 96,
+          "z": 3,
+          "width": 296,
+          "height": 78,
+          "config": "{\"name\": \"8bfa964bc0ba4217bc31\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 648, \"y\": 96, \"z\": 3, \"width\": 296, \"height\": 78, \"tabOrder\": 3}}], \"singleVisual\": {\"visualType\": \"card\", \"projections\": {\"Values\": [{\"queryRef\": \"dim_aluno.Cobertura Digital Conjunta\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"k\", \"Entity\": \"dim_aluno\", \"Type\": 0}], \"Select\": [{\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"k\"}}, \"Property\": \"Cobertura Digital Conjunta\"}, \"Name\": \"dim_aluno.Cobertura Digital Conjunta\"}]}, \"drillFilterOtherVisuals\": true, \"objects\": {\"labels\": [{\"properties\": {\"labelDisplayUnits\": {\"expr\": {\"Literal\": {\"Value\": \"1D\"}}}}}], \"categoryLabels\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}]}, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Cobertura Digital Conjunta'\"}}}, \"alignment\": {\"expr\": {\"Literal\": {\"Value\": \"'center'\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 960,
+          "y": 96,
+          "z": 4,
+          "width": 296,
+          "height": 78,
+          "config": "{\"name\": \"e480e63b2d3f456e99ff\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 960, \"y\": 96, \"z\": 4, \"width\": 296, \"height\": 78, \"tabOrder\": 4}}], \"singleVisual\": {\"visualType\": \"card\", \"projections\": {\"Values\": [{\"queryRef\": \"dim_aluno.Sem Registros Digitais\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"k\", \"Entity\": \"dim_aluno\", \"Type\": 0}], \"Select\": [{\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"k\"}}, \"Property\": \"Sem Registros Digitais\"}, \"Name\": \"dim_aluno.Sem Registros Digitais\"}]}, \"drillFilterOtherVisuals\": true, \"objects\": {\"labels\": [{\"properties\": {\"labelDisplayUnits\": {\"expr\": {\"Literal\": {\"Value\": \"1D\"}}}}}], \"categoryLabels\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}]}, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Sem Registros Digitais'\"}}}, \"alignment\": {\"expr\": {\"Literal\": {\"Value\": \"'center'\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 24,
+          "y": 190,
+          "z": 5,
+          "width": 400,
+          "height": 198,
+          "config": "{\"name\": \"efe72d06b5664a6880eb\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 24, \"y\": 190, \"z\": 5, \"width\": 400, \"height\": 198, \"tabOrder\": 5}}], \"singleVisual\": {\"visualType\": \"clusteredColumnChart\", \"projections\": {\"Category\": [{\"queryRef\": \"dim_faixa_acessos.faixa_acessos\", \"active\": true}], \"Y\": [{\"queryRef\": \"dim_aluno.Qtd Estudantes Acessos\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"t\", \"Entity\": \"dim_faixa_acessos\", \"Type\": 0}, {\"Name\": \"m\", \"Entity\": \"dim_aluno\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"faixa_acessos\"}, \"Name\": \"dim_faixa_acessos.faixa_acessos\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"m\"}}, \"Property\": \"Qtd Estudantes Acessos\"}, \"Name\": \"dim_aluno.Qtd Estudantes Acessos\"}], \"OrderBy\": [{\"Direction\": 1, \"Expression\": {\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"faixa_acessos\"}}}]}, \"drillFilterOtherVisuals\": true, \"objects\": {\"categoryAxis\": [{\"properties\": {\"showAxisTitle\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"titleText\": {\"expr\": {\"Literal\": {\"Value\": \"'Quantidade de acessos'\"}}}}}], \"valueAxis\": [{\"properties\": {\"showAxisTitle\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"labelDisplayUnits\": {\"expr\": {\"Literal\": {\"Value\": \"1000D\"}}}, \"titleText\": {\"expr\": {\"Literal\": {\"Value\": \"'Quantidade de estudantes'\"}}}, \"end\": {\"expr\": {\"Literal\": {\"Value\": \"860000D\"}}}}}], \"labels\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"labelDisplayUnits\": {\"expr\": {\"Literal\": {\"Value\": \"1D\"}}}, \"labelPrecision\": {\"expr\": {\"Literal\": {\"Value\": \"0L\"}}}, \"labelPosition\": {\"expr\": {\"Literal\": {\"Value\": \"'OutsideEnd'\"}}}}}], \"legend\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}]}, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Quantidade de acessos por aluno'\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 440,
+          "y": 190,
+          "z": 6,
+          "width": 400,
+          "height": 198,
+          "config": "{\"name\": \"9d2a5e9bb60f41c6a2dd\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 440, \"y\": 190, \"z\": 6, \"width\": 400, \"height\": 198, \"tabOrder\": 6}}], \"singleVisual\": {\"visualType\": \"clusteredBarChart\", \"projections\": {\"Category\": [{\"queryRef\": \"dim_aluno.cobertura_digital\", \"active\": true}], \"Y\": [{\"queryRef\": \"dim_aluno.Qtd Estudantes\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"t\", \"Entity\": \"dim_aluno\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"cobertura_digital\"}, \"Name\": \"dim_aluno.cobertura_digital\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"Qtd Estudantes\"}, \"Name\": \"dim_aluno.Qtd Estudantes\"}], \"OrderBy\": [{\"Direction\": 1, \"Expression\": {\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"cobertura_digital\"}}}]}, \"drillFilterOtherVisuals\": true, \"objects\": {\"categoryAxis\": [{\"properties\": {\"showAxisTitle\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}], \"valueAxis\": [{\"properties\": {\"showAxisTitle\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"labelDisplayUnits\": {\"expr\": {\"Literal\": {\"Value\": \"1000D\"}}}, \"titleText\": {\"expr\": {\"Literal\": {\"Value\": \"'Quantidade de estudantes'\"}}}, \"end\": {\"expr\": {\"Literal\": {\"Value\": \"780000D\"}}}}}], \"labels\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"labelDisplayUnits\": {\"expr\": {\"Literal\": {\"Value\": \"1D\"}}}, \"labelPrecision\": {\"expr\": {\"Literal\": {\"Value\": \"0L\"}}}, \"labelPosition\": {\"expr\": {\"Literal\": {\"Value\": \"'OutsideEnd'\"}}}}}], \"legend\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}]}, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Cobertura de acessos e redes sociais'\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 856,
+          "y": 190,
+          "z": 7,
+          "width": 400,
+          "height": 198,
+          "config": "{\"name\": \"03c96021728947e5939e\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 856, \"y\": 190, \"z\": 7, \"width\": 400, \"height\": 198, \"tabOrder\": 7}}], \"singleVisual\": {\"visualType\": \"clusteredColumnChart\", \"projections\": {\"Category\": [{\"queryRef\": \"dim_aluno.faixa_etaria_detalhada\", \"active\": true}], \"Y\": [{\"queryRef\": \"dim_aluno.Média das Notas\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"t\", \"Entity\": \"dim_aluno\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"faixa_etaria_detalhada\"}, \"Name\": \"dim_aluno.faixa_etaria_detalhada\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"Média das Notas\"}, \"Name\": \"dim_aluno.Média das Notas\"}], \"OrderBy\": [{\"Direction\": 1, \"Expression\": {\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"faixa_etaria_detalhada\"}}}]}, \"drillFilterOtherVisuals\": true, \"objects\": {\"valueAxis\": [{\"properties\": {\"showAxisTitle\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"titleText\": {\"expr\": {\"Literal\": {\"Value\": \"'Média das notas'\"}}}, \"labelDisplayUnits\": {\"expr\": {\"Literal\": {\"Value\": \"1D\"}}}, \"start\": {\"expr\": {\"Literal\": {\"Value\": \"0D\"}}}, \"end\": {\"expr\": {\"Literal\": {\"Value\": \"10D\"}}}}}], \"labels\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"labelDisplayUnits\": {\"expr\": {\"Literal\": {\"Value\": \"1D\"}}}, \"labelPrecision\": {\"expr\": {\"Literal\": {\"Value\": \"2L\"}}}, \"labelPosition\": {\"expr\": {\"Literal\": {\"Value\": \"'OutsideEnd'\"}}}}}], \"categoryAxis\": [{\"properties\": {\"showAxisTitle\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"titleText\": {\"expr\": {\"Literal\": {\"Value\": \"'Faixa etária'\"}}}}}], \"legend\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}]}, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Média das notas por faixa etária'\"}}}}}]}}}",
+          "filters": "[{\"name\": \"c3017fc685ff4427\", \"expression\": {\"Column\": {\"Expression\": {\"SourceRef\": {\"Entity\": \"dim_aluno\"}}, \"Property\": \"flag_idade_ausente\"}}, \"filter\": {\"Version\": 2, \"From\": [{\"Name\": \"f\", \"Entity\": \"dim_aluno\", \"Type\": 0}], \"Where\": [{\"Condition\": {\"Comparison\": {\"ComparisonKind\": 0, \"Left\": {\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"f\"}}, \"Property\": \"flag_idade_ausente\"}}, \"Right\": {\"Literal\": {\"Value\": \"false\"}}}}}]}, \"type\": \"Categorical\", \"howCreated\": 1}, {\"name\": \"1a1fd3b6a40b417b\", \"expression\": {\"Column\": {\"Expression\": {\"SourceRef\": {\"Entity\": \"dim_aluno\"}}, \"Property\": \"tem_nota\"}}, \"filter\": {\"Version\": 2, \"From\": [{\"Name\": \"f\", \"Entity\": \"dim_aluno\", \"Type\": 0}], \"Where\": [{\"Condition\": {\"Comparison\": {\"ComparisonKind\": 0, \"Left\": {\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"f\"}}, \"Property\": \"tem_nota\"}}, \"Right\": {\"Literal\": {\"Value\": \"true\"}}}}}]}, \"type\": \"Categorical\", \"howCreated\": 1}]"
+        },
+        {
+          "x": 24,
+          "y": 392,
+          "z": 8,
+          "width": 400,
+          "height": 48,
+          "config": "{\"name\": \"76077e15e9c44e30bb0b\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 24, \"y\": 392, \"z\": 8, \"width\": 400, \"height\": 48, \"tabOrder\": 8}}], \"singleVisual\": {\"visualType\": \"textbox\", \"drillFilterOtherVisuals\": true, \"objects\": {\"general\": [{\"properties\": {\"paragraphs\": [{\"textRuns\": [{\"value\": \"Insight: \", \"textStyle\": {\"fontWeight\": \"bold\", \"fontSize\": \"8pt\", \"color\": \"#0F304D\", \"fontFamily\": \"Segoe UI Semibold\"}}, {\"value\": \"Apenas 27,56% dos estudantes possuem registros de acesso, indicando baixa cobertura digital. A faixa 11+ foi mantida para completar a análise.\", \"textStyle\": {\"fontSize\": \"8pt\", \"color\": \"#374151\", \"fontFamily\": \"Segoe UI\"}}]}]}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 440,
+          "y": 392,
+          "z": 9,
+          "width": 400,
+          "height": 48,
+          "config": "{\"name\": \"28a1403938034206974c\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 440, \"y\": 392, \"z\": 9, \"width\": 400, \"height\": 48, \"tabOrder\": 9}}], \"singleVisual\": {\"visualType\": \"textbox\", \"drillFilterOtherVisuals\": true, \"objects\": {\"general\": [{\"properties\": {\"paragraphs\": [{\"textRuns\": [{\"value\": \"Insight: \", \"textStyle\": {\"fontWeight\": \"bold\", \"fontSize\": \"8pt\", \"color\": \"#0F304D\", \"fontFamily\": \"Segoe UI Semibold\"}}, {\"value\": \"62,32% dos estudantes não possuem registros nas fontes digitais, limitando a análise do engajamento.\", \"textStyle\": {\"fontSize\": \"8pt\", \"color\": \"#374151\", \"fontFamily\": \"Segoe UI\"}}]}]}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 856,
+          "y": 392,
+          "z": 10,
+          "width": 400,
+          "height": 48,
+          "config": "{\"name\": \"ed858d7f0d6d40e7b7db\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 856, \"y\": 392, \"z\": 10, \"width\": 400, \"height\": 48, \"tabOrder\": 10}}], \"singleVisual\": {\"visualType\": \"textbox\", \"drillFilterOtherVisuals\": true, \"objects\": {\"general\": [{\"properties\": {\"paragraphs\": [{\"textRuns\": [{\"value\": \"Insight: \", \"textStyle\": {\"fontWeight\": \"bold\", \"fontSize\": \"8pt\", \"color\": \"#0F304D\", \"fontFamily\": \"Segoe UI Semibold\"}}, {\"value\": \"As médias são semelhantes entre as faixas etárias, mas a cobertura parcial das avaliações impede conclusões definitivas.\", \"textStyle\": {\"fontSize\": \"8pt\", \"color\": \"#374151\", \"fontFamily\": \"Segoe UI\"}}]}]}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 24,
+          "y": 446,
+          "z": 11,
+          "width": 400,
+          "height": 192,
+          "config": "{\"name\": \"fa4ed37f561a4d8096bc\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 24, \"y\": 446, \"z\": 11, \"width\": 400, \"height\": 192, \"tabOrder\": 11}}], \"singleVisual\": {\"visualType\": \"clusteredBarChart\", \"projections\": {\"Category\": [{\"queryRef\": \"resumo_dados_ausentes.Campo\", \"active\": true}], \"Y\": [{\"queryRef\": \"resumo_dados_ausentes.Qtd Ausentes\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"t\", \"Entity\": \"resumo_dados_ausentes\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"Campo\"}, \"Name\": \"resumo_dados_ausentes.Campo\"}, {\"Measure\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"Qtd Ausentes\"}, \"Name\": \"resumo_dados_ausentes.Qtd Ausentes\"}], \"OrderBy\": [{\"Direction\": 1, \"Expression\": {\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"Campo\"}}}]}, \"drillFilterOtherVisuals\": true, \"objects\": {\"categoryAxis\": [{\"properties\": {\"showAxisTitle\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}], \"valueAxis\": [{\"properties\": {\"showAxisTitle\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"labelDisplayUnits\": {\"expr\": {\"Literal\": {\"Value\": \"1000D\"}}}, \"titleText\": {\"expr\": {\"Literal\": {\"Value\": \"'Quantidade de estudantes'\"}}}, \"end\": {\"expr\": {\"Literal\": {\"Value\": \"800000D\"}}}}}], \"labels\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"labelDisplayUnits\": {\"expr\": {\"Literal\": {\"Value\": \"1D\"}}}, \"labelPrecision\": {\"expr\": {\"Literal\": {\"Value\": \"0L\"}}}, \"labelPosition\": {\"expr\": {\"Literal\": {\"Value\": \"'OutsideEnd'\"}}}}}], \"legend\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}]}, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Dados ausentes por campo'\"}}}}}]}}}",
+          "filters": "[]"
+        },
+        {
+          "x": 24,
+          "y": 642,
+          "z": 12,
+          "width": 400,
+          "height": 60,
+          "config": "{\"name\": \"c39ac3e21cc74d71ab90\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 24, \"y\": 642, \"z\": 12, \"width\": 400, \"height\": 60, \"tabOrder\": 12}}], \"singleVisual\": {\"visualType\": \"textbox\", \"drillFilterOtherVisuals\": true, \"objects\": {\"general\": [{\"properties\": {\"paragraphs\": [{\"textRuns\": [{\"value\": \"Insight: \", \"textStyle\": {\"fontWeight\": \"bold\", \"fontSize\": \"8pt\", \"color\": \"#0F304D\", \"fontFamily\": \"Segoe UI Semibold\"}}, {\"value\": \"A ausência de médias em 65,08% dos registros reflete estudantes sem avaliações registradas, enquanto os demais campos apresentam poucas lacunas.\", \"textStyle\": {\"fontSize\": \"8pt\", \"color\": \"#374151\", \"fontFamily\": \"Segoe UI\"}}]}]}}]}}}",
+          "filters": "[]"
+        }
+      ],
+      "config": "{}"
+    }
+  ]
+}

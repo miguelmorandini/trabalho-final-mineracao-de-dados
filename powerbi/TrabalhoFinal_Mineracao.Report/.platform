@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "TrabalhoFinal_Mineracao"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "1fcaa4eb-75b0-467c-be4b-5405b845b2b5"
+  }
+}

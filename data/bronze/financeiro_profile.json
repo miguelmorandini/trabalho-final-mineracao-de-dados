@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "dataset": "financeiro",
+    "source_file": "Atividade11 - Financeiro aluno.txt",
+    "size_mb": 51.2091,
+    "rows": 1000000,
+    "columns": [
+      "id_lancamento",
+      "id_aluno",
+      "competencia",
+      "valor_mensalidade",
+      "valor_desconto",
+      "valor_pago",
+      "situacao_financeira",
+      "forma_pagamento",
+      "data_pagamento"
+    ],
+    "delimiter_counts": {
+      "|": 995100,
+      ";": 4900
+    },
+    "ingested_at": "2026-11-13T18:55:24Z"
+  },
+  "unique_id_aluno": 14001,
+  "id_aluno_match_alunos_pct": null,
+  "exact_duplicates": 0,
+  "empty_counts": {
+    "id_lancamento": 0,
+    "id_aluno": 1213,
+    "competencia": 1253,
+    "valor_mensalidade": 1128,
+    "valor_desconto": 1272,
+    "valor_pago": 1250,
+    "situacao_financeira": 1284,
+    "forma_pagamento": 748149,
+    "data_pagamento": 748110
+  },
+  "total_empty_fields": 1503659,
+  "anomalies": {
+    "situacao_distribuicao": {
+      "PENDENTE": 252869,
+      "PAGO": 251874,
+      "EM_ATRASO": 247216,
+      "CANCELADO": 246757,
+      "": 1284
+    },
+    "delimitadores_detectados": {
+      "|": 995100,
+      ";": 4900
+    }
+  }
+}

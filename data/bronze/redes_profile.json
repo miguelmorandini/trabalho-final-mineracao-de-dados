@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "dataset": "redes",
+    "source_file": "Atividade11 - redes.txt",
+    "size_mb": 5.692,
+    "rows": 300000,
+    "columns": [
+      "id_aluno",
+      "interacoes",
+      "seguidores",
+      "seguindo"
+    ],
+    "delimiter_counts": {
+      "|": 300000
+    },
+    "ingested_at": "2026-11-13T18:55:18Z"
+  },
+  "unique_id_aluno": 225241,
+  "id_aluno_match_alunos_pct": null,
+  "exact_duplicates": 0,
+  "empty_counts": {
+    "id_aluno": 0,
+    "interacoes": 0,
+    "seguidores": 0,
+    "seguindo": 0
+  },
+  "total_empty_fields": 0,
+  "anomalies": {}
+}

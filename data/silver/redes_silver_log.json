@@ -1,0 +1,15 @@
+{
+  "dataset": "redes",
+  "rows_in": 300000,
+  "rows_out": 300000,
+  "duplicates_removed": 0,
+  "interacoes_outliers_iqr": {
+    "q1": 250.0,
+    "q3": 750.0,
+    "iqr": 500.0,
+    "lower_bound": -500.0,
+    "upper_bound": 1500.0,
+    "outliers": 0
+  },
+  "interacoes_outliers_zscore": 0
+}
