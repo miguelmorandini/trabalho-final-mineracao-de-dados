@@ -1,13 +1,13 @@
 {
   "melhor_modelo": "RandomForest + Oversampling",
-  "melhor_f1_teste": 0.4566,
-  "cv_5fold_roc_auc_mean": 0.6563,
+  "melhor_f1_teste": 0.4577,
+  "cv_5fold_roc_auc_mean": 0.6568,
   "bootstrap_f1_ci95": [
-    0.4429,
-    0.473
+    0.4437,
+    0.4737
   ],
   "regressao_linear_nota_r2": 0.0001,
   "regressao_linear_nota_rmse": 1.957,
   "kmeans_k": 4,
-  "kmeans_silhouette_score": 0.2331
+  "kmeans_silhouette_score": 0.233
 }
